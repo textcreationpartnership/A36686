@@ -1,0 +1,722 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise of laying on of hands with the history thereof, both from the scripture and antiquity : wherein an account is given how it hath been practised in all ages since Christ, the mistakes about it rectified and the sence of Heb. 6.2. cleared / by H. D'Anvers.</title>
+            <author>Danvers, Henry, d. 1687.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 102 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A36686</idno>
+            <idno type="STC">Wing D236</idno>
+            <idno type="STC">ESTC R8336</idno>
+            <idno type="EEBO-CITATION">12251992</idno>
+            <idno type="OCLC">ocm 12251992</idno>
+            <idno type="VID">57155</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A36686)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 57155)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 888:25)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise of laying on of hands with the history thereof, both from the scripture and antiquity : wherein an account is given how it hath been practised in all ages since Christ, the mistakes about it rectified and the sence of Heb. 6.2. cleared / by H. D'Anvers.</title>
+                  <author>Danvers, Henry, d. 1687.</author>
+               </titleStmt>
+               <extent>60 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Fran. Smith ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Imposition of hands.</term>
+               <term>Rites and ceremonies.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-12</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2013-12</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:57155:1"/>
+            <pb facs="tcp:57155:1" rendition="simple:additions"/>
+            <p>A TREATISE OF Laying on of Hands, With the HISTORY <hi>THEREOF,</hi> Both from the Scripture and Antiquity. Wherein an Account is given how it hath been practiſed in all Ages ſince <hi>Chriſt,</hi> the miſtakes about it rectified and the ſence of <hi>Heb.</hi> 6.2. cleared.</p>
+            <p>By H. D'ANVERS.</p>
+            <q>
+               <bibl>
+                  <hi>Iſa. 57.14.</hi>
+               </bibl>
+               <p>Take up the ſtumbling-block out of the way of my People.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Fran. Smith,</hi> at the <hi>Elephant</hi> and <hi>Caſtle</hi> near the Royal <hi>Exchange</hi> in <hi>Cornhil.</hi> 1674.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:57155:2"/>
+            <pb n="3" facs="tcp:57155:2"/>
+            <head>A TREATISE OF Laying on of Hands.</head>
+            <p>HAving given you an <hi>Account</hi> both from <hi>Scripture</hi> and <hi>Antiquity</hi> of the buſineſs of <hi>Baptiſm</hi> in its <hi>In<g ref="char:EOLhyphen"/>ſtitution, Subject, Manner, End,</hi>
+               <note place="margin">The Intro<g ref="char:EOLhyphen"/>duction.</note> &amp;c. It may neither be <hi>unneceſsary</hi> nor <hi>unprofita<g ref="char:EOLhyphen"/>ble to give</hi> you here ſome <hi>Account</hi> of that of <hi>Laying on of Hands,</hi> not only becauſe it <hi>im<g ref="char:EOLhyphen"/>mediately</hi> followes that of <hi>Baptiſms, Heb.</hi> 6.1, 2. but more eſpecially, becauſe for <hi>Confirmation,</hi> as it hath been called, it hath been next after <hi>Baptiſm,</hi> ſo ſolemnly <hi>aſſerted, practiſed,</hi> and <hi>enjoined</hi> both in <hi>former</hi> and <hi>latter</hi> times, as an <hi>Ordinance</hi> of Chriſt and <hi>Eſſentially</hi> neceſſary to <hi>Church-Communion.</hi> But what this laying <hi>on of Hands</hi> is, and how that of <hi>Confirmati<g ref="char:EOLhyphen"/>on</hi> is founded upon the <hi>Word of God,</hi> we ſhall here <hi>conſider</hi> and examine, and <hi>recommend</hi> to the judgment of all diſcerning and impartial <hi>Chriſtians.</hi>
+            </p>
+            <pb n="4" facs="tcp:57155:3"/>
+            <p>
+               <note place="margin">The Me<g ref="char:EOLhyphen"/>thod obſer<g ref="char:EOLhyphen"/>ved.</note>The Method I ſhall obſerve herein, ſhall be, firſt to give you an Account what we find of this <hi>Rite</hi> in the <hi>New Teſtament.</hi> Secondly, How <hi>aſserted</hi> and <hi>Practiſed</hi> by the <hi>Ancients,</hi> with the <hi>Opinions</hi> of the <hi>Fathers</hi> and <hi>Decrees</hi> of <hi>Councils</hi> upon it. Thirdly, How <hi>Practi<g ref="char:EOLhyphen"/>ſed</hi> and <hi>enjoyned</hi> by the <hi>Church</hi> of <hi>Rome.</hi> Fourthly, How by the <hi>Church</hi> of <hi>England.</hi> Fifthly, How aſſerted by ſome of the <hi>Presby<g ref="char:EOLhyphen"/>terian</hi> and <hi>Independent</hi> perſwaſion. Sixthly, And how practiſed and enjoyned by ſeveral of the <hi>Baptiſed Churches</hi> in this <hi>Nation,</hi> with ſome remarks upon each of them for the bet<g ref="char:EOLhyphen"/>ter diſcovery of Truth.<note place="margin">
+                  <hi>1.</hi> How u<g ref="char:EOLhyphen"/>ſed in the <hi>New Te<g ref="char:EOLhyphen"/>ſtament.</hi>
+               </note>
+            </p>
+            <p n="1">1. How laying on of Hands is <hi>uſed in the New Teſtament.</hi>
+            </p>
+            <p>
+               <note place="margin">1. <hi>Benedi<g ref="char:EOLhyphen"/>ction.</hi>
+               </note>Firſt, in Benediction, <hi>Mark</hi> 10.16. He <hi>took the young Children up in his Arms, put his Hands upon them, and bleſſed them.</hi>
+            </p>
+            <p>
+               <note place="margin">Miracu<g ref="char:EOLhyphen"/>lous heal<g ref="char:EOLhyphen"/>ings.</note>Secondly, In the Cure of <hi>Diſeaſes</hi> and healing the ſick Mark 6.5. <hi>And he could there do no mighty work, ſave that he laid his Hands upon a few ſick folks and healed them:</hi> And <hi>c.</hi> 16.17, 18. <hi>In my Name they ſhall caſt out De<g ref="char:EOLhyphen"/>vils they ſhall ſpeak with New Tongues, they ſhall take up Serpents, and if they drink any deadly thing, it ſhall not hurt them; They ſhall lay Hands on the ſick and they ſhall recover,</hi> Acts 28.8. <hi>And it came to paſs, that the Father of</hi> Publius <hi>lay ſick of a Feaver and of a Bloody Flux, to whom</hi> Paul <hi>entred in and prayed, and laid his Hands on him and healed him.</hi>
+            </p>
+            <p>
+               <note place="margin">
+                  <hi>3.</hi> For ex<g ref="char:EOLhyphen"/>traordina<g ref="char:EOLhyphen"/>ry Gifts <hi>1.</hi> Before Baptiſm.</note>Thirdly, For the conferring the extraordi<g ref="char:EOLhyphen"/>nary Gifts of the Spirit. <hi>viz.</hi>
+            </p>
+            <p n="1">1. Before <hi>Baptiſm, Act.</hi> 9.17. <hi>And Ana<g ref="char:EOLhyphen"/>nias
+<pb n="5" facs="tcp:57155:3"/> went his way and entred into the Houſe, and putting his Hands on him ſaid, brother</hi> Saul, <hi>the Lord even</hi> Jeſus <hi>that appeared unto thee in the way as thou cameſt, hath ſent me that thou might'ſt receive thy ſight, and be filled with the Holy Ghoſt, and immediately there fell from his eyes as it had been Scales, and he received ſight forthwith and aroſe and was Baptiſed.</hi>
+            </p>
+            <p n="2">2. After <hi>Baptiſm,</hi>
+               <note place="margin">
+                  <hi>2.</hi> After Baptiſm.</note> Acts 8.14, 15., <hi>&amp;c.</hi> Now <hi>when the Apoſtles which were at</hi> Jeruſa<g ref="char:EOLhyphen"/>lem, <hi>heard that</hi> Samaria <hi>had received the Word of God, they ſent unto them</hi> Peter <hi>and</hi> John, <hi>who when they were come down, prayed for them that they might receive the Holy Ghoſt, for as yet he was faln upon none of them, only they were Baptiſed in the Name of the Lord</hi> Jeſus. <hi>Then laid they their Hands on them, and they received the Holy Ghoſt. And when</hi> Simon <hi>ſaw that through laying on of the Apoſtles Hands the Holy Ghoſt was given, he offered them mony, ſaying, give me alſo this Power that on whomſoever I lay Hands they may receive the Holy Ghoſt, but</hi> Peter ſaid, <hi>thy Mony periſh with thee, becauſe thou haſt thought that the gift of God may be purchaſed with mony,</hi> &amp;c.</p>
+            <p>Fourthly,<note place="margin">4. <hi>Ordina<g ref="char:EOLhyphen"/>tion.</hi> 1. <hi>Deacons</hi>
+               </note> In Ordination or ſetting apart to Office, <hi>viz. Acts</hi> 6.6. <hi>whom they ſet be<g ref="char:EOLhyphen"/>fore the Apoſtles (viz.</hi> the ſeven <hi>Deacons the Church had choſen</hi>) and when they <hi>had prayed and laid their</hi> hands on them, and the Word of God encreaſed, <hi>&amp;c.</hi>
+            </p>
+            <p n="1">1. Tim. 4.14. <hi>Neglect not the Gift which is in thee that was given thee by Prophecy with the laying on of Hands of the Presbytery.</hi> 2.<note place="margin">2. <hi>Elders.</hi>
+               </note> Tim. 1.6. Wherefore I put thee <hi>in remembrance
+<pb n="6" facs="tcp:57155:4"/> that thou ſtir up the gift of God which is in thee, by the putting on of my hands.</hi> 1 Tim. 5.22. <hi>Lay hands ſuddenly on no Man, neither be par<g ref="char:EOLhyphen"/>taker of other mens ſins, keep thy ſelf pure.</hi>
+            </p>
+            <p>
+               <note place="margin">3 <hi>Meſſen<g ref="char:EOLhyphen"/>gers.</hi>
+               </note>Acts 13.3. <hi>And when they</hi> (viz. the Elders or Teachers of <hi>Antioch; had Faſted and Prayed, and laid their hands on them</hi> [viz. <hi>Paul</hi> and <hi>Bar<g ref="char:EOLhyphen"/>nabas] they ſent them away.</hi>
+            </p>
+            <p>In which Scriptures ſpeaking of this Rite, we may take notice of theſe things.</p>
+            <p n="1">1. Firſt, the ſeveral <hi>kinds</hi> of it, viz. For <hi>Benediction, Healing, Ordination,</hi> and <hi>giving of the Spirit.</hi>
+            </p>
+            <p n="2">2. Secondly, what called, viz. <hi>Laying on of Hands.</hi>
+            </p>
+            <p n="3">3. Thirdly, the <hi>Subjects,</hi> viz. <hi>Little Children, Sick Perſons,</hi> and ſuch upon whom the Spirit had not faln, and Church-Officers.</p>
+            <p n="4">4. Fourthly, the <hi>Adminiſtrators,</hi> viz. <hi>Chriſt Jeſus himſelf, any gifted Believer,</hi> the Elders, <hi>or Presbyters, The gifted Apoſtles.</hi>
+            </p>
+            <p n="5">5. Fifthly, the end, to <hi>Bleſs little Children,</hi> to give <hi>Miraculous</hi> healing. And for Extraor<g ref="char:EOLhyphen"/>dinary gifts of the Spirit to confirm the Goſpel. And for Ordination of Church-Offi<g ref="char:EOLhyphen"/>cers.</p>
+            <p>
+               <note place="margin">
+                  <hi>2</hi> How by the Anci<g ref="char:EOLhyphen"/>ents.</note>Secondly, <hi>How aſſerted by the Ancients, and by the Canons and Decrees of ſeveral Councils.</hi>
+            </p>
+            <p>
+               <hi>Dionyſius</hi>
+               <note place="margin">Dionyſius.</note> 
+               <hi>the Areopagite</hi> Pauls <hi>Convert</hi> at <hi>Athens</hi> ſuppoſed to be the firſt Writer about the year 70. in his <hi>Eccleſiaſtical Hierarchy</hi> cap. de Bapt. ſaith, <hi>After Baptiſm let the Sacra<g ref="char:EOLhyphen"/>ment of Confirmation be adjoined with <g ref="char:V">Ʋ</g>nction,
+<pb n="7" facs="tcp:57155:4"/> then let the Euchariſt be given,</hi> Contemp. 3. Serm. 8.</p>
+            <p>
+               <hi>Pope Clement</hi>
+               <note place="margin">P. <hi>Clement</hi>
+               </note> in his fourth Epiſtle, ſaith, <hi>Let them be Baptized, and then Conſigned by the Biſhop for the Holy Spirit, for without Confir<g ref="char:EOLhyphen"/>mation no perfection.</hi> Joſeph, <hi>Vice comes De Bapt. Ritibus p.</hi> 369. <hi>c.</hi> 18.</p>
+            <p>
+               <hi>Juſtin Martyrs Reſponſes</hi> 137. Queſt. ſaith,<note place="margin">Juſtin Martyr.</note> 
+               <hi>after Baptiſm we are to anoint with Holy Chryſm for Spiritual benefit, Vice com.</hi> ch. 28. p. 369.</p>
+            <p>
+               <hi>Pope Hyginus</hi>
+               <note place="margin">P. <hi>Hygi<g ref="char:EOLhyphen"/>nus.</hi>
+               </note> in his Decree, as ſaith <hi>Gratian L. Oſiand. Cent.</hi> 2. <hi>l.</hi> 2. <hi>c.</hi> 5. ſaith, <hi>in Cate<g ref="char:EOLhyphen"/>chiſm, Baptiſm, and Confirmation, let there be a Goſſip if neceſſity require.</hi>
+            </p>
+            <p>
+               <hi>Pope Calixtus,</hi>
+               <note place="margin">P. <hi>Calixtus</hi>
+               </note> Anno. 218. <hi>Ordained Con<g ref="char:EOLhyphen"/>firmation to be performed with Chriſm,</hi> Flores <hi>Temporum</hi> confeſ. Fabo. c. 7.</p>
+            <p>Pope <hi>
+                  <g ref="char:V">Ʋ</g>rban</hi>
+               <note place="margin">P. <hi>
+                     <g ref="char:V">Ʋ</g>rban.</hi>
+               </note> in, his decretal Epiſtle enjoins, <hi>that the Sacrament of Confirmation be immedi<g ref="char:EOLhyphen"/>ately given after Baptiſm, and that all the faith<g ref="char:EOLhyphen"/>ful are to wait for the Spirit by the impoſition of the Hands of the Biſhop,</hi> Vice co. c. 38. p. 370.</p>
+            <p>Pope <hi>Melchiades,</hi>
+               <note place="margin">P. <hi>Melchi<g ref="char:EOLhyphen"/>ades.</hi>
+               </note> or <hi>Meltiades about</hi> 310. <hi>ordained Impoſition of hands</hi> as neceſſary to perfect Baptiſm. And in his <hi>
+                  <g ref="char:V">Ʋ</g>niverſal De<g ref="char:EOLhyphen"/>cretal Epiſtle, anſwering the Queſtion, which of the Sacraments Baptiſm or Confirmation was of greater Efficacy and Vertue, ſaith, they are to be joined together, there being ſuch Affinity be<g ref="char:EOLhyphen"/>twixt them, that one is not to be done without the other; neither of them being perfect alone,</hi> Vice comes <hi>p.</hi>
+            </p>
+            <p>Pope <hi>Euſebius</hi>
+               <note place="margin">P. <hi>Euſebi<g ref="char:EOLhyphen"/>us.</hi>
+               </note> in his Decretal Epiſtle <hi>calls Impoſition of hands a Sacrament which was not Lawful to be adminiſtred but by the Biſhop.</hi> Magd.
+<pb n="8" facs="tcp:57155:5"/> Cent. 4. p. 478. Alſo in his Epiſtle to the <hi>Biſhop of Tuſca, prefers laying on of hands or Confirmation before Baptiſm,</hi> Mag. Cen. 4. c. 7. p. 581.</p>
+            <p>
+               <hi>Cyprian</hi>
+               <note place="margin">Cyprian.</note> in his 73 Epiſtle to <hi>Jubajan</hi> ſaith, <hi>that Baptiſm is conſummated by the Sacrament of Confirmation.</hi> And again in Ep. 72. lev. 1. <hi>Perſons are fully ſanctified,</hi> and may be ſons of <hi>God if they be born of both Sacraments,</hi> viz. <hi>Baptiſm and Confirmation,</hi> Vice. com. p. 370.</p>
+            <p>
+               <hi>Ambroſe</hi>
+               <note place="margin">Ambroſe.</note> after the Font or Baptiſm, <hi>let there be perfection or Confirmation, for ſo he calls impoſi<g ref="char:EOLhyphen"/>tion of hands,</hi> Lib. 2. c. 7.</p>
+            <p>
+               <hi>Jerom</hi>
+               <note place="margin">Jerom.</note> advers. Lucif. <hi>Contending for the Rites of the</hi> Church, ſaith, <hi>And do not you know that it is the Cuſtom of the Church, that upon the Baptiſed, hands ſhould be impoſed,</hi> Mag. Cen. 4. p. 420.</p>
+            <p>
+               <hi>Auguſtin;</hi>
+               <note place="margin">Auguſtin.</note> That Impoſition of <hi>Hands after Baptiſm, was neceſſary for the gifts of the Spi<g ref="char:EOLhyphen"/>rit. And that if Ignorant Infants be brought to be Baptiſed, let them Anſwer for them that brought them, and being Baptiſed let them be Confirmed and Anointed with holy Chryſme, and ſo let them receive the Euchariſt,</hi> Lib. de Eccleſ. Dogm. Vice comes, c. 28. p. 371.</p>
+            <p>Pope <hi>Innocent</hi>
+               <note place="margin">P. <hi>Innocent.</hi>
+               </note> in his firſt <hi>Ep.</hi> 22. <hi>Macedon. c.</hi> 5, Shews how impious and Sacrilegious it is to repeat the Baptiſm of Infants or Adult, and how requiſite to lay hands on the Bapti<g ref="char:EOLhyphen"/>ſed after the Example of <hi>Peter</hi> and <hi>John, Acts</hi> 8.17. and <hi>Paul</hi> 19.6. <hi>Vice comes c.</hi> 3<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <hi>p.</hi> 376.</p>
+            <p>
+               <hi>Iſidore</hi>
+               <note place="margin">Iſidore.</note> ſaith, that <hi>Impoſition of hands did belong not to the Biſhops Vicars, but to the Bi<g ref="char:EOLhyphen"/>ſhops
+<pb n="9" facs="tcp:57155:5"/> themſelves; And the Reaſon he renders is, be<g ref="char:EOLhyphen"/>cauſe that none of the</hi> 70 <hi>Diſciples who Repreſent<g ref="char:EOLhyphen"/>ed the Apoſtles, had power by laying on of hands to give the Spirit,</hi> Magdeburg. Cent. 6. p. 675.</p>
+            <p>
+               <hi>Haimo</hi> upon Hebrews 6. ſaith,<note place="margin">Hſtimo.</note> 
+               <hi>Impoſition of hands is called Confirmation, which by the Spirit is received, and after Baptiſm confirms the <g ref="char:V">Ʋ</g>nity of the Church, and that Children as well as Adult were to partake thereof,</hi> Mag. Cen. 9.</p>
+            <p>
+               <hi>Rabanus</hi>
+               <note place="margin">Rabanus.</note> 
+               <hi>Maurus</hi> Lib. 1. Inſt. Cler. c. 30. ſaith, <hi>that there are two laying on of hands, one by the Prieſt in Baptiſm, the other by the Biſhop in Confirmation, as Chriſt gave the Spirit by blow<g ref="char:EOLhyphen"/>ing upon them before the Reſurrection and after upon the day of</hi> Pentecoſt.</p>
+            <div type="part">
+               <head>Canons and Decrees of Councils.</head>
+               <p>In the Council of <hi>Laodicea</hi>
+                  <note place="margin">C. <hi>Laod.</hi>
+                  </note> in <hi>Phrygia Pa<g ref="char:EOLhyphen"/>catiana,</hi> held under P. <hi>Sylveſter</hi> the firſt of that Name, Biſhop of <hi>Rome</hi> about 315. <hi>It was decreed in the</hi> 48 <hi>Canon, that the Baptiſed ought to receive after Baptiſm the moſt ſacred Chryſme, and be made partakers of the Heavenly Kingdom.</hi> Vice com. p. 371.</p>
+               <p>In the <hi>Council of Eliberis</hi> in <hi>Spain,</hi>
+                  <note place="margin">C. <hi>Elibe<g ref="char:EOLhyphen"/>ris.</hi>
+                  </note> held 305. unde Pope <hi>Mercellius. It was decreed in the</hi> 38 <hi>Canon. That ſuch as ſayled into ſtrange
+<pb n="10" facs="tcp:57155:6"/> Countries, or if a Church be not near at hand, a Believer if he hath Baptiſm intire</hi> viz. <hi>Baptiſm and Confirmation, and have not two Wives, may Baptiſe a Catechumen in caſe of neceſſity through ſickneſs, but ſo that if he Recover,</hi> he bring him to the <hi>Biſhop that he may be perfected by Impoſition of Hands, and</hi> Canon 77. <hi>If any Deacon ſhall without a Presbyter Baptiſe, the Biſhop ought by bleſſing to perfect</hi> or Con<g ref="char:EOLhyphen"/>firm them.<note place="margin">C. <hi>Carth.</hi>
+                  </note>
+               </p>
+               <p>In the 4 <hi>Council of Carthage</hi> under P. <hi>Inno<g ref="char:EOLhyphen"/>cent</hi> the firſt, about 418. It was decreed that there ſhould be Impoſition of hands for the <hi>Abſolving the Penitent,</hi> Vicler. L. 2. de perſecut. Vandal.<note place="margin">C. <hi>Spalen.</hi>
+                  </note>
+               </p>
+               <p>The <hi>Council of Spalenca,</hi> ordained that the <hi>Baptiſed were to have hands laid upon them and to be ſigned with Chriſm, and that the Biſhops only were to perform it.</hi> Magdeb. Cent. 7. p. 148.</p>
+               <p>
+                  <note place="margin">C. <hi>Brace<g ref="char:EOLhyphen"/>rens.</hi>
+                  </note>The Council of <hi>Bracerens</hi> c. 7. <hi>Command<g ref="char:EOLhyphen"/>ed</hi> that a little <hi>Balſom</hi> ſhould be put <hi>into the Conſecrated Oyl, and that no leſs Reverence ſhould be paid to this Ceremony, than to Baptiſm it ſelf.</hi> Mag. Cen. 7. p. 148.</p>
+               <p>The Council of <hi>Conſtantinople</hi> chap. 7. <hi>That none were to be admitted to Confirmation but thoſe that were inſtructed by Catechiſm,</hi>
+                  <note place="margin">C. <hi>Conſtan</hi>
+                  </note> 
+                  <hi>and could ſay the Creed and Lords Prayer by heart.</hi> Mag. Cen. 7. p. 148.</p>
+               <p>
+                  <note place="margin">C. <hi>Cabil.</hi>
+                  </note>The Council of <hi>Cabillonoſis</hi> Cap. 6. <hi>In the time of</hi> Pope <hi>Eugenius, Decreed that the Bap<g ref="char:EOLhyphen"/>tiſm of the Adult ſhould preſently, if Infants after ſome years of underſtanding, be confirmed
+<pb n="11" facs="tcp:57155:6"/> with Conſignation</hi> and <hi>Chryſm and that Confir<g ref="char:EOLhyphen"/>mation ſhould not be reiterated,</hi> Mag. Cen. 8. p. 350.</p>
+               <p>In the <hi>Gallican</hi>
+                  <note place="margin">Gallican.</note> 
+                  <hi>Council</hi> it was decreed, <hi>that when the Biſhop goes his Canonical Circuit to Confirm, that the Prieſts be always ready for his Aſſiſtance, and that there be Goſſips as well in this, as in Baptiſm; and that the confirmed have his hair cut,</hi> Mag. Cent. 8. p. 350.</p>
+               <p>The Council of <hi>Trent</hi> about Confirmation Decreed.<note place="margin">C. <hi>Trent.</hi>
+                  </note>
+               </p>
+               <p n="1">1. That whoſoever ſaid it was an <hi>Idle Ce<g ref="char:EOLhyphen"/>remony not a Sacrament properly, or that it was formerly uſed that Children might give an Ac<g ref="char:EOLhyphen"/>count of their Faith.</hi> 2. <hi>That to aſcribe Vertue</hi> to Chryſm was to wrong the holy Spirit. 3. <hi>That every ſimple Prieſt is the ordinary Miniſter for Confirmation and not the Biſhop only, ſhould be accurſed.</hi> Oſian. Cent. 16. p. 417.</p>
+               <p>By which ſayings of the Ancients, Canons, and Decrees of Councils, it appears they had early ſet a foot ſomething for an Ordinance of the Church enjoyned to be Practiſed after Baptiſm, and whereof we give you this brief account from them.</p>
+               <p>Firſt,<note place="margin">1 <hi>Name.</hi>
+                  </note> as to the <hi>Name</hi> by which it was called viz. <hi>Confirmation.</hi> 2. <hi>Anointing</hi> or <hi>Chryſm.</hi> 3. <hi>Impoſition of hands.</hi> 4. <hi>Perfection.</hi>
+               </p>
+               <p n="1">
+                  <pb n="12" facs="tcp:57155:7"/>1. Confirmation, becauſe both <hi>Baptiſm</hi> and the <hi>
+                     <g ref="char:V">Ʋ</g>nity</hi> of the Church was thereby <hi>con<g ref="char:EOLhyphen"/>firmed.</hi> 2. <hi>Chryſm</hi> or anointing, becauſe Oyl mingled with Balſom, the thing uſed herewith in imitation of the <hi>holy Oyl</hi> uſed of old. 3. <hi>Impoſition</hi> of hands in alluſion to the Apo<g ref="char:EOLhyphen"/>ſtles practiſe, <hi>Act.</hi> 8.19. who laid on hands for the Spirit (though this could not properly be ſo called, becauſe it was but croſſing the Forehead with the Finger.) 4. <hi>Perfection,</hi> be<g ref="char:EOLhyphen"/>cauſe they eſteemed Baptiſm imperfect with<g ref="char:EOLhyphen"/>out it, therefore for the firſt times they uſed to practiſe it together.</p>
+               <p n="2">
+                  <note place="margin">2 Ground.</note>2. As to the Grounds upon which it was practiſed, viz. as an <hi>Apoſtolical</hi> Tradition handed to them from the <hi>Apostles times</hi> by the Eminent Doctors of the three firſt Centuries, upon whoſe Authority it was practiſed, till con<g ref="char:EOLhyphen"/>firmed by the Councils before mentioned, <hi>viz. Laodicea, Eliberis,</hi> &amp;c.</p>
+               <p n="3">
+                  <note place="margin">3 Manner.</note>3. As to the <hi>manner</hi> of <hi>performing it</hi> viz. by <hi>Croſſing</hi> and anointing the Forehead of the Confirmed party, with Oyl and <hi>Chryſm.</hi>
+               </p>
+               <p n="4">
+                  <note place="margin">4 Admin.</note>4. As to the <hi>Adminiſtrators, viz.</hi> only a Bi<g ref="char:EOLhyphen"/>ſhop to whom in an eſpecial manner it was en<g ref="char:EOLhyphen"/>tailed, it being unlawful for any other to do it from <hi>Peter</hi> and <hi>Johns being</hi> ſent by the Church of <hi>Jeruſalem,</hi> to impoſe hands which <hi>Philip</hi> did not do.</p>
+               <p n="5">
+                  <note place="margin">5 Subjects.</note>5. As to the <hi>Subjects, viz.</hi> All Baptiſed perſons who were either Adult, or Infants, im<g ref="char:EOLhyphen"/>mediately,
+<pb n="13" facs="tcp:57155:7"/> or afterwards, Baptiſed Infants at years of diſcretion. The <hi>Adult</hi> were firſt the Catechumens, who were either the Children of Heathen that inclined to Chriſtianity, or the Children of Chriſtians newly come to the Faith, who to their com<g ref="char:EOLhyphen"/>pleating in Chriſtianity, were to take theſe five ſteps, thus known and diſtinguiſhed.</p>
+               <p n="1">1. They were to be <hi>Catechiſed,</hi>
+                  <note place="margin">1. <hi>Adult.</hi>
+                  </note> taught and <hi>inſtructed,</hi> and then were called the <hi>Catechu<g ref="char:EOLhyphen"/>meni.</hi> 2. Upon their propounding themſelves to <hi>Baptiſm,</hi> were called the <hi>Competentes.</hi> 3. Be<g ref="char:EOLhyphen"/>ing admitted to <hi>Baptiſm,</hi> were called the <hi>Illu<g ref="char:EOLhyphen"/>minati or initiati.</hi> 4. After Baptiſm being <hi>confirmed,</hi> were called the <hi>Perfecti.</hi> 5. After <hi>Confirmation</hi> and receiving the <hi>Euchariſt,</hi> they were called the <hi>fideles.</hi>
+               </p>
+               <p>Or, Secondly. Infants who were for the 4,<note place="margin">2 Infants. preſently.</note> 5, 6 and 7. Cent. the Subjects of it, and with <hi>Baptiſm,</hi> did receive Confirmation and the Euchariſt immediately, and ſo eſteemed <hi>per<g ref="char:EOLhyphen"/>fect</hi> and <hi>compleat</hi> Chriſtians, then it began to be deferred for a week after <hi>Baptiſm,</hi> the Children wearing the <hi>Baptiſmal</hi> white Gar<g ref="char:EOLhyphen"/>ment all the week and upon the 8 day Baptiſm was <hi>perfected</hi> by Confirmation, as ſaith <hi>Raban Maurus L. Inſt. Cler. c.</hi> 30.</p>
+               <p>Or, 3.<note place="margin">2. Perſons Baptiſed in Infancy in their <hi>Adult</hi> ſtate.</note> Such Infants who after they had been <hi>Baptiſed,</hi> did arrive to <hi>knowledge</hi> and <hi>diſ<g ref="char:EOLhyphen"/>cretion,</hi> and were able to ſay the Lords <hi>Prayer,</hi> 10 <hi>Commandements,</hi> and <hi>Creed by heart,</hi> as appears by ſome of thoſe latter Councils.</p>
+               <pb n="14" facs="tcp:57155:8"/>
+               <p>And the reaſon of the ſaid Alteration, as ſaith <hi>Vice comes,</hi> p. 378. was becauſe about <hi>Charles</hi> the firſt's time, in the 8 Cent. Adult Baptiſm, did very much wear off. The People for the moſt part being now <hi>Chriſtians,</hi> their Children became ſo <hi>numerous,</hi> that the Biſhop found it too hard a task to perform his part.</p>
+               <p>Therefore they <hi>appointed</hi> certain <hi>Viſitations,</hi> eſpecially at <hi>Eaſter</hi> and <hi>Whitſontide,</hi> to <hi>confirm</hi> thoſe in their <hi>Dioceſſes,</hi> that having been Bapti<g ref="char:EOLhyphen"/>ſed in <hi>Infancy,</hi> were able to give an Account of <hi>their Faith,</hi> which, ſaith <hi>Vice comes,</hi> was Practiſed in ſeveral places in the Latin Church.</p>
+               <p n="6">
+                  <note place="margin">6. The End</note>6. As to the end of <hi>this Rite,</hi> viz. For the <hi>giving of the Spirit,</hi> and conferring of <hi>Grace,</hi> to perfect and confirm <hi>imperfect Baptiſm,</hi> and therefore eſteemed a <hi>Sacrament</hi> of greater <hi>force</hi> and <hi>Vertue</hi> than Baptiſm it ſelf, and there<g ref="char:EOLhyphen"/>fore to be done with <hi>Oyl,</hi> typing, figuring, or ſigning the Spirit.</p>
+               <p n="7">
+                  <note place="margin">7. Cere<g ref="char:EOLhyphen"/>monies.</note>7. As to the <hi>Ceremonies;</hi> they were di<g ref="char:EOLhyphen"/>vers, <hi>viz.</hi> The party to be <hi>confirmed</hi> was to be in <hi>white Garments,</hi> his head <hi>bound up in Linnen,</hi> the hair of the head to be <hi>Cut,</hi> and to have <hi>Goſſips</hi> to undertake for them.</p>
+               <p n="8">
+                  <note place="margin">8. The Or<g ref="char:EOLhyphen"/>der.</note>8. As to the <hi>Order of Adminiſtring</hi> it, <hi>viz.</hi> eſpecially after Baptiſm (though ſome of the <hi>Catechumens</hi> in <hi>Imitation</hi> of <hi>Ananias</hi> his impo<g ref="char:EOLhyphen"/>ſing hands upon <hi>Paul</hi> Act. 9. <hi>had it before.</hi>) and then had they an <hi>immediate right</hi> given them to partake of the <hi>Euchariſt,</hi> without
+<pb n="15" facs="tcp:57155:8"/> which they could not be admitted to partake thereof.</p>
+               <p n="9">9. As to the <hi>Form</hi>
+                  <note place="margin">The Form.</note> in which the Biſhop ad<g ref="char:EOLhyphen"/>miniſtred it, <hi>viz.</hi> in theſe words, I <hi>Sign</hi> thee with the <hi>Sign</hi> of the <hi>Croſs,</hi> and <hi>confirm</hi> thee with the <hi>Chryſm</hi> of Salvation in the Name of the <hi>Father, Son,</hi> and <hi>holy Spirit.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>The Vſage of the Church of <hi>Rome.</hi>
+               </head>
+               <p>
+                  <hi>The Church of</hi> Rome<note place="margin">Church of <hi>Rome.</hi>
+                  </note> 
+                  <hi>obſerved the very ſame</hi> Order <hi>and</hi> manner <hi>with the ſame</hi> rites <hi>and</hi> Ceremonies <hi>to the ſame</hi> ends <hi>and upon the ſame</hi> ground <hi>as an</hi> Apoſtolical Tradition, <hi>which the former</hi> Centuries <hi>had done; only whereas there began to be ſome ſpace betwixt the</hi> In<g ref="char:EOLhyphen"/>fants Baptiſm, <hi>and their</hi> Confirmation, <hi>that they for the moſt part eſpecially in the latter Centuries have performed them together.</hi>
+               </p>
+               <p>Contarenus, Lib. de Sacrament.<note place="margin">Contare<g ref="char:EOLhyphen"/>nus.</note> 
+                  <hi>a great Po<g ref="char:EOLhyphen"/>piſh Writer ſaith, that</hi> Thomas Aquinas thought that this Sacrament ought to be given to very <hi>young Infants,</hi> becauſe they obtain more Grace and therefore more Glory, which cuſtom, ſaith he, we have kept, leaning upon the Authority of ſo great a Man. <hi>Aq. part 3. Q 72. Ar. 8.</hi>
+               </p>
+               <p>Didoclavius <hi>ſaith in Altar Damaſc.</hi> Many think it to be expedient rather in the time of In<g ref="char:EOLhyphen"/>fancy, becauſe the Infant-Age is not capable of Fiction, whereby the effect of the Sacrament
+<pb n="16" facs="tcp:57155:9"/> may be hindred, and that the Antient uſe of the Church favours that Opinion.</p>
+               <p>
+                  <note place="margin">Ordo Rom.</note>
+                  <hi>In the Ordo Romanis</hi> An old Popiſh Miſſal, <hi>it is</hi> Recorded, that the Biſhop having ſeated him<g ref="char:EOLhyphen"/>ſelf in the Church, the Arch-Deacon holding the Chryſm, the Prieſt preſents the Baptiſed Infants with their Names to the Biſhop, who dipping his Finger in the Oyl, and Croſſing every one in the Forehead, ſaith, I Signe thee with the Sign of the Croſs, and Confirm thee with the Chryſm of Salvation in the Name of the Father, Son and Spirit; and which Rite they ſay is confirmed by the Act of the Apoſtles and opinion of the Fa<g ref="char:EOLhyphen"/>thers from the Scriptures, viz. <hi>Act. 8.17. Acts 19.6. and Heb. 6.2. and</hi> called Confirma<g ref="char:EOLhyphen"/>tion, becauſe the <g ref="char:V">Ʋ</g>nity of the Church was confir<g ref="char:EOLhyphen"/>med by the Biſhop, as ſaith Ambroſe upon <hi>Heb. 6. Haimo and Anſel.</hi> Joſeph Vice comes <hi>c. 30. p. 375.</hi>
+               </p>
+               <p>
+                  <note place="margin">C. <hi>Trent.</hi>
+                  </note>The Council of <hi>Trent, as before, decreed,</hi> That whoſoever ſhould ſay that Children ſhould firſt give an account of their Faith before Confir<g ref="char:EOLhyphen"/>mation ſhould be accurſed.</p>
+               <p>
+                  <note place="margin">Bellar.</note>Bellarmine <hi>de Sacrament. L. c. 11. ſaith,</hi> that Confirmation confers greater Grace than Baptiſm, neither can Baptiſm be perfected without it.</p>
+               <p>
+                  <hi>And again</hi> Tom. <hi>2. ſaith,</hi> Confirmation is to confer Grace that maketh acceptable, and to ſtrengthen the ſoul againſt the Aſſaults of the De<g ref="char:EOLhyphen"/>vil, and to be enroled thereby the ſervants of Chriſt.</p>
+               <p>
+                  <hi>And again in the ſame</hi> Tom. <hi>2.</hi> That it is more perfect than Baptiſm it ſelf, for whereas Baptiſm may be adminiſtred by Ordinary Prieſts or Deacons, yea even women themſelves in caſe of neceſſity, this is not to be performed but by the holy hands of a Biſhop.</p>
+            </div>
+            <div type="part">
+               <pb n="17" facs="tcp:57155:9"/>
+               <head>The Vſage of the Church of <hi>England.</hi>
+               </head>
+               <p>The Church of <hi>England,</hi>
+                  <note place="margin">Chur. of <hi>Engl.</hi>
+                  </note> though they lop off many of the Ancient and <hi>Popiſh Superſtitions</hi> and <hi>Ceremonies</hi> herein; yet do they retain the thing, <hi>viz. Confirmation</hi> after Baptiſm by a <hi>Biſhop</hi> only, and the Subjects, <hi>viz. Baptized Children,</hi> able to ſay their Cate<g ref="char:EOLhyphen"/>chiſm, according to the Decrees of the Coun<g ref="char:EOLhyphen"/>cil of <hi>Conſtance,</hi> and the <hi>Gallican</hi> Councils before-mentioned. The <hi>whole Rite and Cere<g ref="char:EOLhyphen"/>mony</hi> thereof, with what appertains thereto, you have at large in the <hi>Engl.</hi> Liturgy, in the <hi>Rubrick;</hi> the ſubſtance whereof you may pleaſe to take as followeth.</p>
+               <div type="subpart">
+                  <head>The Order of Confirmation or Laying on of Hands upon Children Baptized, and able to render an Account of their Faith according to the <hi>Cate<g ref="char:EOLhyphen"/>chiſm.</hi>
+                  </head>
+                  <p>TO the end that Confirmation may be admi<g ref="char:EOLhyphen"/>niſtred to the more edifying of ſuch as ſhall receive it (according to St. <hi>Paul's</hi> Doctrine, who teacheth that all things ſhould be done in the Church to the Edification of the ſame) it is thought good that none hereafter ſhall be confirm<g ref="char:EOLhyphen"/>ed,
+<pb n="18" facs="tcp:57155:10"/> but ſuch as can ſay in their Mother-Tongue the Articles of the Faith, the Lord's Prayer, and the Ten Commandments, and can alſo anſwer to ſuch Queſtions of the ſhort Catechiſm as the Bi<g ref="char:EOLhyphen"/>ſhop (or ſuch as he ſhall appoint) ſhall by his diſcretion appoſe him; and this Order is moſt convenient to be obſerved, for divers Conſidera<g ref="char:EOLhyphen"/>tions;</p>
+                  <p>
+                     <hi>Firſt,</hi> Becauſe that when Children come to the years of Diſcretion, and have learned what their Godfathers and Godmothers promiſed for them in Baptiſm, they may then themſelves, with their own mouth, and with their own conſent, openly before the Church, ratifie and confirm the ſame, and alſo promiſe that by the Grace of God, they will evermore endeavour themſelves faithfully to obſerve and keep ſuch things as they by their own mouths and Confeſſion have aſsented unto.</p>
+                  <p>
+                     <hi>Secondly,</hi> Foraſmuch as Confirmation is mi<g ref="char:EOLhyphen"/>niſtred to them that are baptized, that by Impo<g ref="char:EOLhyphen"/>ſition of hands and Prayer, they may receive ſtrength and defence againſt all Temptations to Sin, and the Aſſaults of the World and the De<g ref="char:EOLhyphen"/>vil; it is most meet to be miniſtred when Chil<g ref="char:EOLhyphen"/>dren come to that Age, that partly by the frailty of their own Fleſh, partly by the Aſſaults of the World and the Devil, they begin to be in danger to fall into ſundry kinds of Sin.</p>
+                  <p>
+                     <hi>Thirdly,</hi> For that it is agreeable with the <g ref="char:V">Ʋ</g>
+                     <g ref="char:EOLhyphen"/>ſage of the Church in times paſt; whereby it was ordained that Confirmation ſhould be miniſtred to them that were of perfect Age; that they being inſtructed in Chriſt's Religion, ſhould <hi>openly profeſs their own Faith, and promiſe to be</hi> obedient to the Will of God.</p>
+                  <pb n="19" facs="tcp:57155:10"/>
+                  <p>The <hi>Order it ſelf,</hi> this fol<g ref="char:EOLhyphen"/>lowing Prayer being ſaid.</p>
+                  <p>
+                     <hi>ALmighty and everlaſt<g ref="char:EOLhyphen"/>ing God, who haſt vouchſafed to regene<g ref="char:EOLhyphen"/>rate theſe thy Servants by Water, and the Holy Ghoſt, and haſt given unto them forgiveneſs of all their ſins; ſtrengthen them, we beſeech thee, O Lord, with the Holy Ghoſt the Comforter, and daily encreaſe in them thy manifold Gifts of Grace, the Spirit of Wisdom and Vn<g ref="char:EOLhyphen"/>derſtanding, the Spirit of counſel and ghoſtly ſtrength, the Spirit of knowledge and true Godlineſs, and fill them O Lord, with the Spirit of thy Holy Fear, </hi> Amen.</p>
+                  <pb n="20" facs="tcp:57155:11"/>
+                  <p>Then ſhall the Biſhop lay his <hi>hand upon every Child ſeverally,</hi> ſaying,</p>
+                  <p>
+                     <hi>DEfend, O Lord, this Child with thy Hea<g ref="char:EOLhyphen"/>venly Grace, that he may continue thine for ever, and daily encreaſe in thy Ho<g ref="char:EOLhyphen"/>ly Spirit more and more, until he come into thy ever<g ref="char:EOLhyphen"/>laſting Kingdom,</hi> Amen.</p>
+                  <p>Then ſhall the Biſhop ſay,</p>
+                  <p>
+                     <hi>ALmighty and everlaſt<g ref="char:EOLhyphen"/>ing God, which ma<g ref="char:EOLhyphen"/>keth us both to will &amp; to do thoſe things that be good &amp; acceptable unto thy Majeſty, we make our hum<g ref="char:EOLhyphen"/>ble ſupplications unto thee for theſe Children, upon whom, after the example of the Holy Apoſtles, we have laid our hands, to certifie
+<pb n="21" facs="tcp:57155:11"/> them (by this Sign) of thy Favour and Gracious Good<g ref="char:EOLhyphen"/>neſs towards them, let thy Fatherly Hand, we beſeech thee, be over them, let thy Holy Spirit ever be with them, and ſo lead them in the knowledge and obedience of thy Word, that in the end they may obtain the ever<g ref="char:EOLhyphen"/>laſting Life, through our Lord Ieſus, who with thee and the Holy Ghoſt, liveth and reigneth, one God, world without end,</hi> Amen.</p>
+                  <p>Then the Biſhop ſhall <hi>bleſs</hi> the Children, ſaying,</p>
+                  <p>
+                     <hi>The Bleſsing of God Almighty, the Father, Son and Holy Ghoſt, be upon you and remain with you for ever and ever,</hi> Amen.</p>
+                  <pb n="22" facs="tcp:57155:12"/>
+                  <p>After are added theſe Directions relating to <hi>Confirmation,</hi> viz.</p>
+                  <p>That the <hi>Curate</hi> of every <hi>Pariſh, or ſome other at his appointment, ſhall diligently on Sun<g ref="char:EOLhyphen"/>days and Holy-days, half an hour before Evening-Prayer, openly in the Chureh, inſtruct and exa<g ref="char:EOLhyphen"/>mine ſo many Children of his Pariſh ſent unto him, as the time will ſerve, and as he ſhall think convenient, in ſome part of this Cate<g ref="char:EOLhyphen"/>chiſm.</hi>
+                  </p>
+                  <p>And <hi>all Fathers, Mothers, Maſters and Dames ſhall cauſe their Children, Servants and Ap<g ref="char:EOLhyphen"/>prentices (which have not learned their Cate<g ref="char:EOLhyphen"/>chiſm) to come to the Church at the time ap<g ref="char:EOLhyphen"/>pointed, and obediently to bear and be ordered by the Curate, until ſuch time as they have learned all that is here appointed for them to learn; and whenſoever the Biſhop ſhall give knowledge for Children to be brought before him to any con<g ref="char:EOLhyphen"/>venient place for their Confirmation, then ſhall the Curate of every Pariſh either bring or ſend in writing the Names of all thoſe Children of his Pariſh which can ſay the Articles of the Faith, the Lord's Prayer, and the Ten Commandments; and alſo how many of them can anſwer to the other Queſtions contained in this Catechiſm.</hi>
+                  </p>
+                  <p>
+                     <hi>And there ſhall none be admitted to the Holy Communion until ſuch time as he can ſay the Catechiſm, and be confirmed.</hi>
+                  </p>
+                  <pb n="23" facs="tcp:57155:12"/>
+                  <p>Dr. <hi>Cave,</hi>
+                     <note place="margin">Dr. Cave.</note> in his late <hi>Primitive Chriſtianity,</hi> upon the Subject, ſaith of our <hi>Engliſh</hi> Con<g ref="char:EOLhyphen"/>firmation, That <hi>almoſt exactly according to the Primitive uſage, it is ſtill retained and practiſed in our Church at this day; and happy were it for us, were it kept up in its due power and vigour: Sure I am that many of our chiefeſt Breaches and Controverſies in Religion, do, if not wholly, in a great meaſure, owe their Birth and Riſe to the neglect and contempt of this excellent <g ref="char:V">Ʋ</g>ſage of the Church.</hi> p. 219.</p>
+                  <p>Concerning which Rite, <hi>as uſed by the Church of</hi> England, we obſerve,</p>
+                  <p n="1">1. The <hi>Name</hi> given it, <hi>viz. Confirmation.</hi>
+                  </p>
+                  <p n="2">2. The <hi>Subjects,</hi> viz. <hi>Children Baptized</hi> in their Infancies, that are taught their <hi>Cate<g ref="char:EOLhyphen"/>chiſm,</hi> and are able to ſay the <hi>Creed, Lord's Prayer,</hi> and <hi>Ten Commandments</hi> in the <hi>Engliſh</hi> Tongue.</p>
+                  <p n="3">3. The <hi>Adminiſtrators,</hi> a Biſhop only; and therefore the <hi>Ceremony</hi> was ſo vulgarly called <hi>Biſhoping.</hi>
+                  </p>
+                  <p n="4">4. The <hi>Force</hi> and manner, as <hi>expr<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſs'd</hi> by the Biſhop's putting the hand upon the Head of the Children, and ſaying that Form of words directed.</p>
+                  <p n="5">5. The <hi>Ends,</hi> as declared, <hi>viz.</hi> 1. To con<g ref="char:EOLhyphen"/>firm Infants Baptized, and the <hi>Promiſe</hi> of the <hi>Sureties</hi> made for them therein. 2. To give the <hi>Spirit</hi> for the encreaſe of Grace, and ſtrength againſt Temptations. 3. To <hi>confirm</hi> the <hi>
+                        <g ref="char:V">Ʋ</g>nity</hi> and <hi>Order</hi> of the Church, and or<g ref="char:EOLhyphen"/>derly to admit them therein.</p>
+                  <p n="6">6. The <hi>Time</hi> when adminiſtred; betwixt
+<pb n="24" facs="tcp:57155:13"/> their <hi>Baptiſm</hi> and the <hi>Supper,</hi> aſſoon as they can ſay their Catechiſm.</p>
+                  <p n="7">7. The <hi>Grounds</hi> upon which they aſſert; <hi>viz.</hi> The <hi>
+                        <g ref="char:V">Ʋ</g>ſage</hi> of the <hi>Ancient Church,</hi> De<g ref="char:EOLhyphen"/>crees of Councils, Apoſtles Practice.</p>
+                  <p>Performed by them with very little <hi>Reve<g ref="char:EOLhyphen"/>rence</hi> or <hi>Caution,</hi> either how or upon whom they do it, ſaith Mr. <hi>Hanmer</hi> and Mr. <hi>Bax<g ref="char:EOLhyphen"/>ter.</hi>
+                  </p>
+                  <p>Mr. <hi>Hanmer,</hi> p. 42. Though they deem it to be of ſome <hi>weight</hi> and <hi>conſequence,</hi> yet as <hi>uſed</hi> by them, it is little leſs than <hi>ridiculous,</hi> a meer <hi>vain</hi> and empty Ceremony; or (as the <hi>Saxon-Confeſſion</hi> terms the <hi>Romiſh Sacrament</hi> of Confirmation) <hi>Inanis <g ref="char:V">Ʋ</g>mbra,</hi> an <hi>Empty Sha<g ref="char:EOLhyphen"/>dow;</hi> and <hi>Hommius,</hi> a <hi>vain Invention of Super<g ref="char:EOLhyphen"/>ſtitious men.</hi>
+                  </p>
+                  <p>Mr. <hi>Baxter,</hi> In his Book <hi>Of Confirmation,</hi> p. 155. ſaith, <hi>To his knowledge it was done by the beſt of them in a careleſs hudling way, mumbling over a few formal Prayers upon perſons that they knew not whether they were Chriſtians or Infidels, or that they did ſo much as know there was a God.</hi>
+                  </p>
+                  <p>In the Fifth place, We come to give you an Account how this Rite hath <hi>been aſſerted</hi> and pleaded by ſome, both of the <hi>Indepen<g ref="char:EOLhyphen"/>dent</hi> and <hi>Presbyterian Perſwaſion;</hi> ſo eſpecially by Mr. <hi>Jonathan Hanmer,</hi> in his Book called <hi>Confirmation the ancient way of compleating Church-Members:</hi> Written with great applauſe in the year 1657. And <hi>Mr. Baxter,</hi> in con<g ref="char:EOLhyphen"/>firmation thereof, in his Book called <hi>Confir<g ref="char:EOLhyphen"/>mation and Reſtoration the neceſſary means of Re<g ref="char:EOLhyphen"/>formation
+<pb n="25" facs="tcp:57155:13"/> and Reconciliation:</hi> Who do there<g ref="char:EOLhyphen"/>in undertake to prove the neceſſity of <hi>Confir<g ref="char:EOLhyphen"/>mation,</hi> a laying on of the hands of the <hi>Pres<g ref="char:EOLhyphen"/>bytery</hi> for the <hi>confirming and compleating In<g ref="char:EOLhyphen"/>fants-Baptiſm,</hi> perfecting their <hi>Church-Member<g ref="char:EOLhyphen"/>ſhip</hi> upon their <hi>Profeſſion</hi> and <hi>Confeſſion</hi> of Faith; and which they endeavour to make good by this five-fold Argument.</p>
+                  <p n="1">1. By <hi>Scripture.</hi> 2. By the <hi>Teſtimony of Fathers.</hi> 3. By <hi>Councils.</hi> 4. By the <hi>Judg<g ref="char:EOLhyphen"/>ment and Practice</hi> of the <hi>Waldenſes.</hi> 5. By the Judgment of many of the <hi>Reformed Di<g ref="char:EOLhyphen"/>vines.</hi>
+                  </p>
+                  <p n="1">I. As to Scripture.</p>
+                  <p>The main <hi>Scripture</hi> he inſiſts on to prove this Confirmation by (and which as modeſt<g ref="char:EOLhyphen"/>ly ſaid, is a <hi>probable ground</hi> for the the ſame) is that of <hi>Heb.</hi> 6.2. <hi>And laying on of Hands.</hi> Where, as urged, it is made one of the <hi>Princi<g ref="char:EOLhyphen"/>ples of the Doctrine of Chriſt.</hi> Where,</p>
+                  <p n="1">1. Its <hi>Place</hi> is to be taken notice of, being next after <hi>Baptiſm,</hi> and as it were, an <hi>Appen<g ref="char:EOLhyphen"/>dix</hi> thereof, and for the moſt part immediate<g ref="char:EOLhyphen"/>ly following it in ſuch <hi>Adult</hi> as were baptized, and the next Priviledge in the Church as ſuch did enjoy who were <hi>baptized in Infancy.</hi>
+                  </p>
+                  <p n="2">2. Becauſe the beſt <hi>Interpreters</hi> do uſually underſtand this of one or more of the three <hi>Particulars</hi> that Impoſition of hands hath re<g ref="char:EOLhyphen"/>lation to, <hi>viz.</hi>
+                  </p>
+                  <p n="1">1. Of the <hi>extraordinary Gifts</hi> of the Holy Ghoſt, which was conferr'd at firſt upon many new Converts by the laying on of the Apoſtles hands, <hi>Acts</hi> 8.17, 19.</p>
+                  <p n="2">
+                     <pb n="26" facs="tcp:57155:14"/>2. Of the <hi>Officers</hi> of the Church who were or<g ref="char:EOLhyphen"/>dained and ſet apart unto their Offices by Prayer and Impoſition of hands. This <hi>Pareus</hi> in <hi>Heb.</hi> 6.1. <hi>Initiata erat Doctrina de Donis Spiritualibus &amp; Miniſterio Eccleſiae;</hi> It was an Initial Doctrine concerning Spiritual Gifts and the Miniſtry of the Church, <hi>Ameſ. in Bellarm. Enervat. By Impoſition of Hands is meant the whole Miniſtry; Per Impoſitionem Manuum Miniſterium totum intelligitur.</hi>
+                  </p>
+                  <p n="3">3. Of <hi>the Confirmation</hi> of ſuch who had been baptized, who before the <hi>Church</hi> made a <hi>Profeſſion</hi> of Faith, the <hi>Adult before Baptiſm,</hi> the Baptized <hi>Infant</hi> before Confirmation. So <hi>Piſcator, Beza, Rivet, Doctors of Leyden, Anſelm, Calvin, Hyperius, Illyricus,</hi> Mr. <hi>Dee<g ref="char:EOLhyphen"/>ring</hi> upon the place. By theſe and other Ex<g ref="char:EOLhyphen"/>poſitors, it is ſaid, is this place of Scripture underſtood, in part at leaſt, of <hi>Impoſition of Hands</hi> in Confirmation; which therefore in their apprehenſion, is warranted by it; <hi>as a Doctrine Fundamental that ought to be known by all, and a thing practiſed by, and taking its Riſe from the Apoſtles.</hi> And,</p>
+                  <p n="2">
+                     <note place="margin">
+                        <hi>2.</hi> By Te<g ref="char:EOLhyphen"/>ſtimony of Fath.</note>II. That it was alſo as an Apoſtolical Practice received by the Church in after-Ages, <hi>Caſſan<g ref="char:EOLhyphen"/>der</hi> (that Learned Papiſt, and ſo well vers'd in the <hi>Ancients,</hi> even to Miracle) tells us, <hi>Semper in Eccleſia religioſiſſimè obſervatum fuiſ<g ref="char:EOLhyphen"/>ſe,</hi> To have been always moſt religiouſly ob<g ref="char:EOLhyphen"/>ſerved in the Church; and therefore have you an Account thereof from many of the <hi>Fathers,</hi> viz. <hi>Dionyſ. Areopag. Clem. Roman. Juſtin Martyr's Reſponſes, Tertullian, Cyprian, Am<g ref="char:EOLhyphen"/>broſe,
+<pb n="27" facs="tcp:57155:14"/> Jerom,</hi> &amp;c. Which being all before mentioned, we need not repeat. And,</p>
+                  <p n="3">III. The Decrees of <hi>Councils,</hi>
+                     <note place="margin">
+                        <hi>3.</hi> Dec. of Councils.</note> confirming Confirmation to have been an <hi>Ancient</hi> and <hi>Ge<g ref="char:EOLhyphen"/>neral Practice</hi> in the Churches of Chriſt; of which two only are mentioned, <hi>viz.</hi> The <hi>Laod.</hi> before recited, about the year 300, and the Council of <hi>Eliberis</hi> in <hi>Spain,</hi> in 305. And,</p>
+                  <p n="4">IV.<note place="margin">
+                        <hi>4.</hi> Wald. Practice.</note> By the Judgment and Practiſe of the <hi>Waldenſes;</hi> who received it as an <hi>Apoſtolical</hi> Inſtitution, as appears by their Apology and Confeſſion of Faith exhibited to <hi>
+                        <g ref="char:V">Ʋ</g>ladiſlaus</hi> K. of <hi>Hungary,</hi> Anno 1504. <hi>witneſſing</hi> to <hi>Infants-Baptiſm,</hi> and their <hi>Confirmation</hi> after, upon their Perſonal <hi>Confeſſion;</hi> which he mentions at large out of the ſame Apology, And,</p>
+                  <p n="5">V.<note place="margin">
+                        <hi>5.</hi> Refor<g ref="char:EOLhyphen"/>med Ch.</note>From the compliance of the ſucceeding Reformed Churches; amongſt whom the <hi>Church</hi> of <hi>England</hi> is mentioned as one, who took much of the <hi>Order</hi> of Confirmation (as he ſaith) from that of the <hi>Waldenſes;</hi> part whereof he repeats; eſpecially the Concluſi<g ref="char:EOLhyphen"/>on, that <hi>debars any from the Holy Communion, that were not confirmed; and adds thereto the good wiſhes that</hi> Hommius, Calvin, the Leyd. Profeſſors, <hi>&amp;c. that this Buſineſs of Confirmation was drained from Antichriſtian Mixtures, both as to Name, Nature, Matter, Form, Admini<g ref="char:EOLhyphen"/>ſtrator and Subject alſo; the</hi> Romiſh <hi>Church</hi> confirming Children in their <hi>Infancies.</hi>
+                  </p>
+                  <pb n="28" facs="tcp:57155:15"/>
+                  <p>In whoſe <hi>Hypotheſis</hi> we have firſt,</p>
+                  <p n="1">1. The <hi>Name</hi> they give this Rite; namely, <hi>Confirmation.</hi> 2. The <hi>Subjects,</hi> Adult Per<g ref="char:EOLhyphen"/>ſons, all baptized in Infancy. 3. The <hi>Ad<g ref="char:EOLhyphen"/>miniſtrators, viz.</hi> The Presbytery-Elderſhip. 4. The <hi>End, viz.</hi> To confirm Baptiſm, give the Spirit, and orderly to admit into the Church, 5. The <hi>Time</hi> when to be admini<g ref="char:EOLhyphen"/>ſtred, <hi>viz.</hi> Betwixt <hi>Baptiſm</hi> and the <hi>Lord's Supper,</hi> when they give an Account of their Faith, and deſire Church-Communion. 6. The <hi>Grounds</hi> upon which they aſſert it; <hi>viz.</hi> 1. <hi>Scriptural;</hi> eſpecially from <hi>Heb.</hi> 6.2. 2. The Sayings of the <hi>Ancients,</hi> and Decrees of <hi>Councils,</hi> confirming it to be an Apoſtolical Practice. 7. The <hi>
+                        <g ref="char:V">Ʋ</g>ſage</hi> and Practice of the Ancient and Modern Churches, eſpecially that of the Famous <hi>Waldenſes.</hi>
+                  </p>
+                  <p n="6">
+                     <note place="margin">
+                        <hi>6.</hi> Bapti<g ref="char:EOLhyphen"/>zed Churches S. Fiſher. Jo. Grif<g ref="char:EOLhyphen"/>fith. W. Rider T. Gran<g ref="char:EOLhyphen"/>tham.</note>6. <hi>The <g ref="char:V">Ʋ</g>ſage of ſeveral Baptized Churches in the Nation.</hi>
+                  </p>
+                  <p>Sixthly and laſtly, We come to give you an Account how that this Rite of <hi>Laying on of Hands</hi> hath been <hi>aſſerted</hi> and <hi>practiſed</hi> by ſe<g ref="char:EOLhyphen"/>veral <hi>Baptized Congregations,</hi> who have by their <hi>Writings</hi> maintained and defended, That Laying on of <hi>Hands upon all Baptized Belie<g ref="char:EOLhyphen"/>vers,</hi> is an <hi>Ordinance</hi> of Jeſus Chriſt, eſſenti<g ref="char:EOLhyphen"/>ally <hi>neceſſary to Church-Fellowſhip</hi> and <hi>Commu<g ref="char:EOLhyphen"/>nion,</hi> and that none are to be <hi>admitted</hi> to the Lord's Supper without it; and which they endeavour to make good, eſpecially from <hi>Heb.</hi> 6.2. Which they conclude to be a Laying on of Hands upon all Baptized Believers.</p>
+                  <p n="1">
+                     <pb n="29" facs="tcp:57155:15"/>1. Becauſe it is reckoned amongſt the <hi>Foun<g ref="char:EOLhyphen"/>dation-Principles,</hi> Doctrines and Oracles of God. And, 2. Becauſe they <hi>find the Church</hi> of <hi>Samaria,</hi> Acts 8.17. and the Church of <hi>Epheſus did practiſe</hi> accordingly immediately after Baptiſm; which therefore they do con<g ref="char:EOLhyphen"/>clude was both <hi>Chriſt's Precept</hi> and the <hi>Pra<g ref="char:EOLhyphen"/>ctice</hi> of all the Churches in the <hi>New Teſta<g ref="char:EOLhyphen"/>ment.</hi>
+                  </p>
+                  <p>Amongſt whom reſpecting this Practice, we <hi>obſerve,</hi>
+                  </p>
+                  <p n="1">1. The <hi>Name</hi>
+                     <note place="margin">Name.</note> they give this Rite, <hi>viz. Lay<g ref="char:EOLhyphen"/>ing on of Hands.</hi>
+                  </p>
+                  <p n="2">2. The <hi>Subjects,</hi> viz. <hi>All Baptized Believers,</hi>
+                     <note place="margin">Subject.</note> 
+                     <hi>Men</hi> and <hi>Women.</hi>
+                  </p>
+                  <p n="3">3. The <hi>Adminiſtrators</hi>
+                     <note place="margin">Admin.</note> viz. The <hi>Elders</hi> or <hi>Presbyters.</hi>
+                  </p>
+                  <p n="4">4. The <hi>End,</hi>
+                     <note place="margin">End.</note> for the promiſed Spirit to con<g ref="char:EOLhyphen"/>firm the Baptized, and orderly to <hi>admit into</hi> the Church.</p>
+                  <p n="5">5. The <hi>Time</hi>
+                     <note place="margin">Time.</note> or Order in which this is ad<g ref="char:EOLhyphen"/>miniſtred; betwixt <hi>Baptiſm</hi> and the <hi>Supper,</hi> or preſently after the <hi>Baptiſm.</hi>
+                  </p>
+                  <p n="6">6. The principal <hi>Ground</hi>
+                     <note place="margin">Principal Ground</note> upon which they <hi>aſſert</hi> it, <hi>viz.</hi> The Scripture; eſpecially from <hi>Heb.</hi> 6.2. <hi>Acts</hi> 8.17, 19.</p>
+                  <p>Thus have you an Account of this <hi>Rite,</hi>
+                     <note place="margin">Wherein all Par<g ref="char:EOLhyphen"/>ties do agree.</note> not only from <hi>Scriptures,</hi> but how it hath been <hi>owned</hi> and <hi>practiſed</hi> ſince the firſt times, by ſeveral ſorts; and who notwithſtanding the vaſt <hi>differences</hi> among them in the Ceremonial part, yet do all of them <hi>harmoniouſly</hi> agree in the following <hi>Subſtantials, viz.</hi>
+                  </p>
+                  <p>That there is a warrantable ground to con<g ref="char:EOLhyphen"/>clude
+<pb n="30" facs="tcp:57155:16"/> that the Hands of the <hi>Biſhop, Elder,</hi> or <hi>Presbyter</hi> ſhould be <hi>impoſed</hi> upon every Bapti<g ref="char:EOLhyphen"/>zed Perſon for the receiving of the Spirit, or Confirmation, and that without it none ought to be <hi>admitted</hi> to the Lord's <hi>Supper.</hi>
+                  </p>
+                  <p>It remains therefore in the next <hi>place,</hi> that we conſider the ſaid <hi>Grounds</hi> upon which ſo great an <hi>Ordinance</hi> is enjoined, and which we find to be either <hi>Tradition</hi> or the <hi>Scripture.</hi>
+                  </p>
+                  <p n="1">1. That of <hi>Tradition</hi> (which is principal<g ref="char:EOLhyphen"/>ly aſſerted by the firſt four) is made good ei<g ref="char:EOLhyphen"/>ther from the <hi>Sayings</hi> of the <hi>Ancients,</hi> and Decrees of Councils, or the Uſage of the an<g ref="char:EOLhyphen"/>cient Churches.</p>
+                  <p n="2">2. And that of <hi>Scripture,</hi> which is princi<g ref="char:EOLhyphen"/>pally urged by the two latter, is eſpecially from <hi>Heb.</hi> 6.2. compared <hi>Act.</hi> 8.17. &amp; 19.6. Which we ſhall examine <hi>diſtinctly</hi> and apart.</p>
+                  <p>
+                     <note place="margin">Traditi<g ref="char:EOLhyphen"/>on.</note>And firſt, As to the <hi>Sayings</hi> of the Anci<g ref="char:EOLhyphen"/>ents, that are <hi>avouched</hi> to make this good, we ſhall firſt <hi>conſider</hi> what they <hi>ſay</hi> about this Rite; and 2. Of what <hi>Credit</hi> and <hi>Authority</hi> the ſaid <hi>Authors</hi> are who be produced for the ſame.</p>
+                  <p>And firſt, As to the <hi>Rite</hi> it ſelf, which they would make us believe to be ſo great an Ordi<g ref="char:EOLhyphen"/>nance of Jeſus Chriſt, we find it to be ſo <hi>blaſ<g ref="char:EOLhyphen"/>phemous</hi> and <hi>Ridiculous,</hi> that the very naming of the Particulars thereof, may be <hi>ſufficient</hi> to detect the <hi>Folly</hi> and <hi>Impiety</hi> thereof to all diſcerning Chriſtians. Whether reſpecting the <hi>Name,</hi> which they call <hi>Chryſm; <g ref="char:V">Ʋ</g>nction, Perfection, Confirmation,</hi> of which the Scrip<g ref="char:EOLhyphen"/>ture is ſo much a ſtranger; or the <hi>Nature,</hi>
+                     <pb n="31" facs="tcp:57155:16"/> which muſt be by putting the <hi>Sign</hi> of the Croſs with a <hi>Biſhop's</hi> greas'd <hi>Finger,</hi> in the Forehead of the <hi>Confirmed,</hi> with theſe words of Blaſphemy, I <hi>ſign thee with the Sign of the Croſs, and with the Chryſm of Salvation, in the Name of the Father, Son and Spirit,</hi> the Party being in a <hi>white Garment,</hi> his Head bound with <hi>Linnen,</hi> his Hair cut, and atten<g ref="char:EOLhyphen"/>ded with <hi>Goſſips</hi> or Sureties. And this is that which the ſeveral <hi>fore-cited Popes</hi> and <hi>Fathers</hi> have reported to be <hi>Apoſtolical;</hi> and the ſeve<g ref="char:EOLhyphen"/>ral <hi>Councils</hi> have by their <hi>Canons</hi> and <hi>Decrees</hi> determined and enjoyned as the great Sacra<g ref="char:EOLhyphen"/>ment of <hi>Confirmation,</hi> and ſo tranſcendent al<g ref="char:EOLhyphen"/>ſo to <hi>Baptiſm</hi> it ſelf; and which without di<g ref="char:EOLhyphen"/>ſpute (we muſt believe) was ſo much the <hi>ap<g ref="char:EOLhyphen"/>pointment</hi> and <hi>practice</hi> of Chriſt and the <hi>Apo<g ref="char:EOLhyphen"/>ſtles,</hi> and as yet practiſed <hi>accordingly</hi> by the Church of <hi>Rome</hi> to this day.</p>
+                  <p>Concerning which <hi>Hommius</hi>
+                     <note place="margin">Hommius</note> tells us, <hi>That it is not only unknown and <hi>contrary</hi> to the Scrip<g ref="char:EOLhyphen"/>tures, but blaſphemous and <hi>Idolatrous,</hi> and the vain Invention of ſuperſtitious men.</hi>
+                  </p>
+                  <p>And <hi>Tilenus,</hi>
+                     <note place="margin">Tilenus</note> upon their lifting it up above <hi>Baptiſm, and confining it</hi> only <hi>to a Biſhop's hand,</hi> ſaith, <hi>That they make an Excrement of Anti<g ref="char:EOLhyphen"/>chriſt ſo much more <hi>excellent</hi> than the Sacrament of Chriſt, by how much they make a Biſhop ex<g ref="char:EOLhyphen"/>cel</hi> a <hi>common Prieſt, or an ordinary perſon.</hi> Syn<g ref="char:EOLhyphen"/>tag. <hi>Part</hi> 2. <hi>c.</hi> 58. §. 15.</p>
+                  <p>And <hi>Ameſius</hi> ſaith,<note place="margin">Ameſ.</note> 
+                     <hi>The Reaſons given by the Papiſts for the ſame, are both empty, and impi<g ref="char:EOLhyphen"/>ous.</hi> Bel. Enervat. <hi>c.</hi> 4.</p>
+                  <p>And notably Mr. <hi>Calvin,</hi>
+                     <note place="margin">Calvin.</note> In Pref. <hi>ante Cate<g ref="char:EOLhyphen"/>chiſ. inter Opuſcul. That beyond meaſure they
+<pb n="32" facs="tcp:57155:17"/> have d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ckt this Adulterous Confirmation like an Harlot, with great ſplendor of Ceremonies, and many pompous Gauderies; moreover, while they will adorn it, they do it with execrable Blaſphe<g ref="char:EOLhyphen"/>mies, boaſting that it is a Sacrament more wor<g ref="char:EOLhyphen"/>thy than Baptiſm, and calling them half-Chri<g ref="char:EOLhyphen"/>ſtians, whoever have not been beſmear'd with their ſtinking Oyl; but in the mean while their whole action contains nothing elſe but Hiſtrionical Geſtures, or rather wanton Apiſh Plays without any Art or emulation,</hi> &amp;c.</p>
+                  <p>
+                     <note place="margin">
+                        <hi>2.</hi> What their Au<g ref="char:EOLunhyphen"/>thorities.</note>Secondly, From the <hi>Authorities</hi> themſelves urged in proof hereof; concerning whom, we may ſo well ſay, as is the <hi>Doctrine,</hi> ſo are the <hi>Doctors, viz.</hi> Thoſe that are firſt cited to deli<g ref="char:EOLhyphen"/>ver the ſame, the very naming of whom, may be ſufficient to detect the Cheat, we having already by <hi>ſubſtantial</hi> evidence <hi>proved,</hi> that all thoſe firſt-recited Authorities, <hi>viz. Dionyſ. A<g ref="char:EOLhyphen"/>reopag. Clem.</hi> 4. Ep. <hi>Juſtin Martyr's Reſponſ. Hyginus</hi>'s <hi>Decree,</hi> and the <hi>Decretal Epiſtles</hi> of thoſe <hi>firſt Popes,</hi> to have been <hi>Impious Lies</hi> and <hi>Forgeries,</hi> things that in after-Ages, by the Riſe of the <hi>Myſtery of Iniquity,</hi> were feigned and <hi>invented</hi> by ſome <hi>Monks</hi> and <hi>Friers,</hi> and put upon thoſe men of Name of the firſt Ages, the better to countenance thoſe Anti<g ref="char:EOLhyphen"/>chriſtian Impieties that were to be impoſed upon the <hi>World,</hi> for <hi>Apoſtolick;</hi> for by ſuch <hi>Lies</hi> and <hi>Forgeries,</hi> did the man of ſin aſcend the Throne. And is there not good ground think you, to ſuſpect the Juſtice and Truth of that Cauſe, that cannot otherwiſe be de<g ref="char:EOLhyphen"/>fended nor maintained, but by ſuborned Wit<g ref="char:EOLhyphen"/>neſſes,
+<pb n="33" facs="tcp:57155:17"/> and <hi>Knights</hi> of the <hi>Poſt;</hi> for upon no better Authority, have they impoſed this which they call the Sacred Rite of <hi>Confirmati<g ref="char:EOLhyphen"/>on, Infants-Baptiſm, Exorciſm,</hi> and a <hi>hundred ridiculous</hi> Ceremonies more, which they would <hi>perſwade</hi> us to believe were Apoſtolical; though as to this of <hi>Confirmation,</hi> ſome of themſelves are conſtrained to acknowledge,<note place="margin">Rivet.</note> 
+                     <hi>nec ab Apoſto<g ref="char:EOLhyphen"/>lis, nec à Chriſto fuiſſe Inſtitutio, &amp;c.</hi> That it <hi>was neither inſtituted by Chriſt or his Apoſtles, but by Pope</hi> Calixtus, <hi>Anno</hi> 218. <hi>Rivet's</hi> Con<g ref="char:EOLhyphen"/>trov. <hi>Tom.</hi> 2. Yet ſo intoxicated with the Whores Cup were all theſe <hi>Councils,</hi> upon no better grounds to decree it, and all theſe af<g ref="char:EOLhyphen"/>ter-Doctors, as <hi>Ambroſe, Jerom, Auſtin,</hi> and others, to aſſert and plead it for an Ordinance of Chriſt; which was not only ſo contrary to the Scripture, but ſo blaſphemous and ridicu<g ref="char:EOLhyphen"/>lous, as before.</p>
+                  <p>And if it had been an <hi>Apoſtolical Tradition</hi> to practiſe this, as the firſt Councils <hi>decreed,</hi> and the Fathers and others <hi>practiſed, viz.</hi> for many hundred years, as a Baptiſmal Rite, to be performed at one and the ſame time with Baptiſm, whether upon Infants or Adult, and to whom alſo as perfect and compleat Chriſti<g ref="char:EOLhyphen"/>ans, they gave the Euchariſt; how came the <hi>after-Councils</hi> to be ſo bold, to alter and change it from <hi>Infancy</hi> to the <hi>Adult</hi> ſtate, put<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ing it upon them only for ſo many Ages; and the Church of <hi>Rome</hi> afterwards to alter and change it again, returning it to its firſt practice, lean<g ref="char:EOLhyphen"/>ing upon the <hi>Validity</hi> of thoſe firſt <hi>Authori<g ref="char:EOLhyphen"/>ties;</hi> concerning whom, though it is no won<g ref="char:EOLhyphen"/>der that they ſhould hold faſt ſuch impious
+<pb n="34" facs="tcp:57155:18"/> Forgeries, and have recourſe to ſuch lying <hi>Fa<g ref="char:EOLhyphen"/>bles,</hi> to maintain it; yet it is matter of admi<g ref="char:EOLhyphen"/>ration, to find our <hi>Proteſtant</hi>-Writers and <hi>Churches</hi> to fly to theſe <hi>Authorities,</hi> both <hi>Fa<g ref="char:EOLhyphen"/>thers</hi> and <hi>Councils,</hi> to create ſome colourable pretence for Confirmation?</p>
+                  <p>
+                     <note place="margin">Objection as to the Waldenſ. Church.</note>But what do you ſay to the <hi>Practice</hi> of the <hi>Waldenſian</hi> Church; to whom you have aſ<g ref="char:EOLhyphen"/>cribed ſo much <hi>Authentickneſs?</hi> Who, as you obſerve, were ſuch early Witneſſes for <hi>Truth;</hi> as well as eminent oppoſers of the <hi>Romiſh Church</hi> in all their <hi>Fopperies;</hi> who yet, as it appeareth, have aſſerted and practiſed Confir<g ref="char:EOLhyphen"/>mation, as you have at large in the forecited <hi>Apology</hi> to King <hi>Laodiſlaus,</hi> King of <hi>Hungary</hi> and <hi>Bohemia.</hi>
+                  </p>
+                  <p>
+                     <note place="margin">Anſw.</note>To which I ſay, That it is moſt <hi>manif ſt,</hi> as I have already demonſtrated that that <hi>Apo<g ref="char:EOLhyphen"/>logy</hi> was not from the <hi>Waldenſes,</hi> as the Pream<g ref="char:EOLhyphen"/>ble it ſelf <hi>declares;</hi> but from ſome of thoſe Pro<g ref="char:EOLhyphen"/>feſſors diſtinguiſhed by the name <hi>Huſſites,</hi> who held much with thoſe of the Reformed Way in <hi>Germany:</hi> and not the <hi>Taborites</hi> or <hi>Walden<g ref="char:EOLhyphen"/>ſian Brethren,</hi> who alſo inhabited in <hi>Bohemia,</hi> and other parts of <hi>Germany, Poland,</hi> and <hi>Hun<g ref="char:EOLhyphen"/>gary.</hi> And that thoſe true <hi>Waldenſes</hi> were of a quite contrary Opinion, appears by their Ancient Confeſſions of Faith; an eminent Inſtance whereof you'l find in their Treatiſe of <hi>Sacraments,</hi> in <hi>Paul Perin,</hi> p. 329. and in <hi>Morland's Hiſtory,</hi> p. 175. in theſe words; <hi>viz.</hi>
+                  </p>
+                  <pb n="35" facs="tcp:57155:18"/>
+                  <p>
+                     <hi>As for the Sacrament of Confirmation, which we find not inſtituted either by Chriſt or his A<g ref="char:EOLhyphen"/>poſtles; for Chriſt, the Pattern of all his Church, was not confirmed in his Perſon, and he doth not require that there ſhould be any ſuch thing in Baptiſm, but only pure Water; and that ſuch a Sacrament is not found needful for Salvation; whereby God is blaſphemed, and which was in<g ref="char:EOLhyphen"/>troduced by the Devil's inſtigation, to ſeduce the People, and to deprive them of the Faith of the Church, and that by ſuch means they might be drawn the more to believe the Ceremonies, and the neceſſity of Biſhops.</hi>
+                  </p>
+                  <p>It is alſo to be taken notice of,<note place="margin">Juſtin Martyr give no account in his A<g ref="char:EOLhyphen"/>pology,</note> that <hi>Juſtin Martyr,</hi> in his Apology, giving an Account of the Faith and Practice of the <hi>Churches</hi> in thoſe days to <hi>Antonius Pius,</hi> takes not the leaſt notice hereof, though he recounts all their Services and Ceremonies in Worſhip with great Plainneſs.</p>
+                  <p>It is alſo not unworthy our obſervation, that the <hi>Novatians,</hi>
+                     <note place="margin">Novati<g ref="char:EOLhyphen"/>ans.</note> that worthy famous <hi>Church</hi> and <hi>People,</hi> did, as <hi>Joſeph Vicecomes</hi> tells us, oppoſe this Buſineſs of <hi>Confirmation</hi> in <hi>Cen<g ref="char:EOLhyphen"/>tury</hi> 3. Vicecomes, <hi>l.</hi> 28. <hi>p.</hi> 372.</p>
+                  <p>And alſo it is manifeſt out of <hi>Breerwood,</hi>
+                     <note place="margin">Nor in the Greek Churches</note> the eminent <hi>Recorder</hi> of the Antiquities of the <hi>Greek Churches,</hi> that the <hi>Greeks</hi> did <hi>impugn</hi> and reject that of <hi>Confirmation.</hi> Br. <hi>p.</hi> 127. out of <hi>Paſ. De Rep. Moſch.</hi> p. 40. And particu<g ref="char:EOLhyphen"/>larly tells us that the <hi>Neſtorians</hi>
+                     <note place="margin">Neſtori<g ref="char:EOLhyphen"/>ans.</note> did not pra<g ref="char:EOLhyphen"/>ctiſe it. <hi>p.</hi> 124. out of <hi>Bib. Pat.</hi> p 1054.</p>
+                  <p>That the <hi>Abyſſines</hi>
+                     <note place="margin">Abyſſines</note> inhabiting <hi>Preſter John's</hi> Countrey, did not practiſe it. <hi>Br.</hi> p. 167. <hi>Ex Alv. Hiſt. Aethiop.</hi> c. 5.</p>
+                  <pb n="36" facs="tcp:57155:19"/>
+                  <p>
+                     <note place="margin">Muſcov.</note>And that the <hi>Muſcovites</hi> omit it, <hi>Br.</hi> p. 136. <hi>Ex Jo. Metrop. Ruſſ.</hi> in Epiſt. ad <hi>Epiſc. Rom.</hi> apud <hi>Sigiſm.</hi> De Reb. Muſc. <hi>p.</hi> 31.</p>
+                  <p>
+                     <note place="margin">Cophti <hi>nor</hi> Ja<g ref="char:EOLhyphen"/>cobites.</note>And that there is no mention either of the <hi>Cophti</hi> in <hi>Egyp.</hi> or <hi>Jacobites</hi> in <hi>Syria,</hi> that ever practiſed this Rite.</p>
+                  <p>It is alſo manifeſt out of the <hi>Confeſſions</hi> of Faith of the <hi>Belgick Churches,</hi> eſteeming them<g ref="char:EOLhyphen"/>ſelves the true and <hi>immediate Succeſſors</hi> of the <hi>Waldenſes;</hi> recorded at large in the <hi>Dutch Martyrol.</hi> or <hi>Bloody Theater,</hi> printed in 1660. That there is no mention of any ſuch practice as Impoſition of Hands upon all baptized per<g ref="char:EOLhyphen"/>ſons amongſt them either formerly or lat<g ref="char:EOLhyphen"/>terly.</p>
+                  <p>
+                     <note place="margin">
+                        <hi>3.</hi> The Scripture Ground.</note>In the next place we ſhall conſider the Scri<g ref="char:EOLhyphen"/>pture-ground that is urged and produced in proof hereof, eſpecially by the two latter; which we find to be principally from <hi>Heb.</hi> 6.2. The <hi>Doctrine</hi> of <hi>Baptiſm,</hi> laying on of Hands, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, which Mr. <hi>Hanmer</hi>
+                     <note place="margin">Mr. <hi>Han<g ref="char:EOLhyphen"/>mer.</hi>
+                     </note> acknowledgeth to be the <hi>chief;</hi> and (though as he <hi>modeſtly</hi> expreſſeth himſelf) <hi>but a proba<g ref="char:EOLhyphen"/>ble ground from the Scripture to found it upon, being there made one of the Principles of the Doctrine of Chriſt, and placed next after Bap<g ref="char:EOLhyphen"/>tiſm, and as it were an Appendix thereof, and which for the moſt part, immediately followed it in ſuch Adult as were baptized, and the next priviledge of the Church</hi> (he ſaith) <hi>that ſuch did enjoy as had been baptized in Infancy; and that many of the beſt Interpreters did uſually un<g ref="char:EOLhyphen"/>derſtand this place to mean, in part at least, of Impoſition of Hands in Confirmation; though he
+<pb n="37" facs="tcp:57155:19"/> doth confeſs others did alſo take it to mean Impo<g ref="char:EOLhyphen"/>ſition of Hands in Ordination; and others, the whole Doctrine of laying on of hands, as expreſt in the Scripture; but eſpecially leans upon the Tradition, and the <g ref="char:V">Ʋ</g>ſage, and Practice of the Church in all Ages,</hi> p. 26, 27.</p>
+                  <p n="1">1. To whom, and to all of his <hi>Perſwaſion,</hi> I ſay, That if their <hi>Infants Baptiſm</hi> be a <hi>Nul<g ref="char:EOLhyphen"/>lity,</hi> which they pretend hereby eſpecially to confirm, and is the main deſign of his and Mr. <hi>Baxter's</hi> Treatiſes; that their practice hereupon falls to the ground; for if their <hi>Hypotheſis</hi> be naught and rotten, their <hi>Theſis</hi> cannot be ſound that is built upon it: but that it is ſo, the foregoing <hi>Treatiſe</hi> of that Subject doth amply diſcover; proving with great clearneſs, that it was an <hi>Invention</hi> and <hi>Inſtitu<g ref="char:EOLhyphen"/>tion</hi> of man, yea, of the man of Sin; calcula<g ref="char:EOLhyphen"/>ted on purpoſe to out Chriſt's Baptiſm, and to defile his Church; and this appearing to be of the ſame Piece, contrived and ordered by the ſame Heads and Hands, it is meet, that as they have lived, ſo they ſhould die toge<g ref="char:EOLhyphen"/>ther.</p>
+                  <p>And ſecondly, We may conclude rational<g ref="char:EOLhyphen"/>ly, If Infants were capable of <hi>Baptiſm,</hi> they were as <hi>capable</hi> at the ſame time, of laying on of hands (as firſt <hi>inſtituted</hi> and practiſed) and of the Supper alſo, as <hi>Auſtin</hi> and others tell us they had them all together, and not firſt baptize them, and then many years after (and no body knows how and when) confirm them; for if one be a Foundation or begin<g ref="char:EOLhyphen"/>ning Doctrine, as the other, they have done beſt and moſt according to Rule and Reaſon,
+<pb n="38" facs="tcp:57155:20"/> that have practiſed it immediately, and not deferr'd it.</p>
+                  <p>And thirdly, Since the Scripture is, as <hi>con<g ref="char:EOLhyphen"/>feſs'd,</hi> but a probable ground, and that of <hi>Tradition, Antiquity,</hi> and conſtant Uſage of the Church, the more <hi>certain;</hi> the latter ap<g ref="char:EOLhyphen"/>pearing ſo invalid upon all the <hi>foregoing Con<g ref="char:EOLhyphen"/>ſiderations,</hi> that faint inſinuation from that Scripture, cannot be a ground <hi>ſufficient</hi> to build that Practice upon.</p>
+                  <p>And to which laſtly, we will add Mr. <hi>Bax<g ref="char:EOLhyphen"/>ter</hi>'s Sober Cautions, enough to ſhake the con<g ref="char:EOLhyphen"/>fidence of any that have no better Ground for the Practice; as we find them in <hi>p.</hi> 127, 128, 129. of his <hi>Confirmation:</hi> Where, after he had with all his might endeavoured to eſtabliſh it both from Scripture and Antiquity, doth, according to his wonted manner, in a few Lines unſay more than he had ſaid in all the reſt, <hi>viz.</hi>
+                  </p>
+                  <p n="1">
+                     <note place="margin">M. Baxt. Sober Cautions</note>1. <hi>That we do not find that God inſtituted this Sign as a Matter of neceſſity, ſtill without in<g ref="char:EOLhyphen"/>terruption to be uſed; but only that by holy men it was applied as a convenient Sign or Geſture to the works in which they uſed it; even as lifting up of hands in Prayer, was ordinarily uſed as a fit Geſture, not wilfully to be neglected without cauſe, and yet not of flat neceſſity; or as Kneel<g ref="char:EOLhyphen"/>ing in Prayer, is ordinarily meet, but not always neceſſary; we find no more Scripture for the one or for the other: which ſhews how little Rea<g ref="char:EOLhyphen"/>ſon there is to make it matter of Neceſſity. The Ancient Church alſo uſed it ſo variouſly, as that it is plain they fixed it to no one Caſe alone; of the divers Caſes in which they impoſed hands on
+<pb n="39" facs="tcp:57155:20"/> the Catechumens, and four times on the Peni<g ref="char:EOLhyphen"/>tents and divers others, as;</hi> ſaith he, <hi>you may ſee in</hi> Albaſpinaeus's Obſervat. <hi>p.</hi> 31, 32.</p>
+                  <p n="2">2. We find <hi>that Kneeling in Prayer, and lift<g ref="char:EOLhyphen"/>ing up of hands, were often omitted; ſo we find that ſometimes the Holy Ghoſt is given before Baptiſm or Impoſition of Hands,</hi> Acts 10. <hi>And we find not that the Apoſtles uſed it at all,</hi> viz. <hi>for Confirmation; though I confeſs the Ne<g ref="char:EOLhyphen"/>gative Arguing is infirm; yet it ſeems not probable that this was always done.</hi>
+                  </p>
+                  <p n="3">3. <hi>It was ſomewhat ſuſpicious to find in</hi> Juſtin Martyr's <hi>Deſcription of the Chriſtian Churches practices, no mention of this, nor any Sacrament but Baptiſm and the Lord's Supper, nor any of the</hi> Roman <hi>Ceremonies; and</hi> Irenaeus <hi>and ſome others alſo are ſilent in it too.</hi>
+                  </p>
+                  <p n="4">4. <hi>God maketh no Ceremonies under the Go<g ref="char:EOLhyphen"/>ſpel ſo neceſſary, except the two Sacraments; nor layeth ſo great a ſtreſs on them as under the Law; and therefore we are not to interpret the Goſpel as laying mens Salvation, or the Peace of the Church on any Ceremonies, unleſs we find it clearly expreſs'd.</hi>
+                  </p>
+                  <p n="5">5. <hi>For all that I have ſaid from Scripture for Impoſition of Hands in Confirmation (though the Lawfulneſs of it is proved past Doubt) yet the proof of the Duty of uſing it, is li<g ref="char:EOLhyphen"/>able to ſo many Objections, as that I muſt needs confeſs that the Goſpel-tenderneſs, and the ſenſe of our mutual Infirmities, and our care of tender Conſciences, and of the Churches Peace, ſhould reſtrain all the Sons of Piety and Peace from ma<g ref="char:EOLhyphen"/>king it a matter of flat neceſſity, and forcing them that ſcruple to ſubmit to it.</hi>
+                  </p>
+                  <pb n="40" facs="tcp:57155:21"/>
+                  <p>
+                     <note place="margin">The Scrip<g ref="char:EOLhyphen"/>ture-Gr. upon wch the Bapt. have foun<g ref="char:EOLhyphen"/>ded it.</note>We come in the next place to conſider the Scripture-Grounds upon which the <hi>Baptiſts</hi> have aſſerted this Rite, and <hi>founded</hi> this <hi>Pra<g ref="char:EOLhyphen"/>ctice</hi> of <hi>impoſing hands</hi> upon all Baptized Be<g ref="char:EOLhyphen"/>lievers; and ſo <hi>eſſentially neceſſary</hi> to Church-Communion, and which, as before, you find to be eſpecially held forth from <hi>Heb.</hi> 6.12. Though affirmed not with that <hi>Sobriety</hi> and <hi>Modeſty</hi> as the other from <hi>Probability,</hi> but ra<g ref="char:EOLhyphen"/>ther <hi>Infallibility;</hi> and therefore impoſe it ac<g ref="char:EOLhyphen"/>cordingly, denying <hi>Fellowſhip</hi> to any that do not ſo <hi>receive</hi> it; and as ſome have in Print <hi>aſſerted,</hi> as neither being <hi>Babes</hi> in Chriſt, nor having <hi>Communion</hi> with God; as Mr. <hi>Griffith</hi> in his Book hath it, call'd <hi>God's Oracle,</hi> p. 87. And the reaſon of this their <hi>great Confidence</hi> from this Text, is, as you have heard, <hi>two<g ref="char:EOLhyphen"/>fold;</hi> firſt, Becauſe Laying <hi>on of hands</hi> is rec<g ref="char:EOLhyphen"/>koned amongſt the <hi>beginning-Teachings.</hi> And ſecondly, Becauſe they find <hi>it,</hi> as they ſay, <hi>practiſed</hi> accordingly, <hi>Acts</hi> 8.17. <hi>Acts</hi> 19.6.</p>
+                  <p>To the <hi>Trial</hi> and Examination thereof, we ſhall therefore apply our ſelves, and ſee whe<g ref="char:EOLhyphen"/>ther theſe have <hi>diſcovered</hi> a better <hi>Baſis</hi> to found this Practice upon, than thoſe that have <hi>gone before.</hi>
+                  </p>
+                  <p>And in order thereto, we ſhall in the firſt place lay down theſe two following <hi>Principles,</hi> ſo fully owned by themſelves, as a Line to carry us through the Work, <hi>viz.</hi>
+                  </p>
+                  <p n="1">1. <hi>That to every Ordinance of Chriſt there muſt be ſome plain poſitive word of Inſtitution to confirm it.</hi> And neither Humane Tradition,
+<pb n="41" facs="tcp:57155:21"/> nor far-fetcht Conſequence and Inference, ſuch as the many Volumes that have been written from Circumciſion and Federal Holineſs to aſ<g ref="char:EOLhyphen"/>ſert Infants-Baptiſm to be an Ordinance of Chriſt, which no ordinary capacity can reach, and only men of Parts and Abilities can trace and follow in their <hi>Meanders.</hi>
+                  </p>
+                  <p n="2">2. <hi>That to practiſe any thing in the worſhip of God for an Ordinance of his, without an Inſtitu<g ref="char:EOLhyphen"/>tion, is Will-Worſhip and Superſtition.</hi> But how their Aſſertions will comport with theſe honeſt Proteſtant Principles, we ſhall preſently ſee.</p>
+                  <p>The great Text urged for the Inſtitution of this Ordinance, is, <hi>Heb.</hi> 6.1, 2. <hi>Therefore lea<g ref="char:EOLhyphen"/>ving the Principles of the Doctrine of Chriſt, let us go on to perfection, not laying again the foun<g ref="char:EOLhyphen"/>dation of Repentance from Dead Works; and of Faith towards God, of the Doctrine of Bap<g ref="char:EOLhyphen"/>tiſm, and of laying on of hands, and of Reſur<g ref="char:EOLhyphen"/>rection of the Dead, and of Eternal Judg<g ref="char:EOLhyphen"/>ment.</hi>
+                  </p>
+                  <p>This is the Text which is affirmed to be the great <hi>Charter</hi> of the <hi>Church</hi> for this Point of Faith and Practice;<note place="margin">Granth.</note> but how to find the leaſt <hi>Warranty</hi> for the ſame therein, we ſee not. If it was indeed ſaid, Let all <hi>baptized Believers</hi> have hands laid upon them; with as much <hi>plainneſs,</hi> as Let all <hi>Believers</hi> be baptized, <hi>Mat.</hi> 28.29. <hi>Acts</hi> 10.48. Or, Let all <hi>Baptized Believers</hi> eat the <hi>Lord's Supper,</hi> 1 Cor. 11.24. Acts 2.41, 42. It was <hi>ſomething</hi> to the pur<g ref="char:EOLhyphen"/>poſe.</p>
+                  <pb n="42" facs="tcp:57155:22"/>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>1</label> But is it not reckoned amongſt the Princi<g ref="char:EOLhyphen"/>ples, Foundation, Doctrine and Oracles of God?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> It is very true, the <hi>Doctrine</hi> of Laying on of hands is here reckoned amongſt the <hi>Princi<g ref="char:EOLhyphen"/>ples</hi> of the Doctrine of Chriſt [or his begin<g ref="char:EOLhyphen"/>ning-teachings]; but then it muſt be ſuppoſed to be ſuch a laying on of hands as was ſome<g ref="char:EOLhyphen"/>where <hi>taught</hi> and <hi>practiſed.</hi> But ſuch a laying on of hands upon all Baptized <hi>Believers,</hi> we find no where taught or <hi>Practiſed.</hi> Jeſus Chriſt our great <hi>Example</hi> (as the <hi>Waldenſes</hi> ſo well obſerve) had no <hi>hands laid</hi> upon him by <hi>John</hi> Baptiſt after he baptized him; neither did he lay hands upon all his <hi>Diſciples</hi> before they <hi>broke Bread;</hi> neither did he give one word <hi>of it</hi> in his Commiſſion upon his <hi>Aſcenſion;</hi> nor do we read that this <hi>Church</hi> of the <hi>Hebrews</hi> practiſed any ſuch thing; for there is no men<g ref="char:EOLhyphen"/>tion that the 120 <hi>had hands</hi> ſo laid upon them; nor the 3000 in <hi>Chap.</hi> 2. or 5000 in <hi>Chap.</hi> 4. after their Baptiſm, before they broke Bread: Neither do we find <hi>the leaſt</hi> of it in any other of the <hi>Churches</hi> in the New Teſtament; nei<g ref="char:EOLhyphen"/>ther in <hi>Samaria,</hi> by <hi>Philip,</hi> after he baptized them, nor <hi>Corinth, Philippi, Coloſs, Theſſalo<g ref="char:EOLhyphen"/>nica, Rome,</hi> the <hi>Churches</hi> of <hi>Galatia, Churches</hi> in <hi>Aſia, Smirna, Thyatira, Pergamus, Sardis, Philadelphia;</hi> no, nor in <hi>Epheſus:</hi> It is true, <hi>Paul</hi> laid hands upon twelve of their number, upon another occaſion, as <hi>Peter</hi> and <hi>John</hi> did in <hi>Samaria;</hi> whereof you have an Account hereafter; nor in the <hi>Churches</hi> in <hi>Syria, An<g ref="char:EOLhyphen"/>tioch, Lyſtra, Derbe,</hi> &amp;c.</p>
+                  <pb n="43" facs="tcp:57155:22"/>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>2</label> But why ſhould laying on of hands be rec<g ref="char:EOLhyphen"/>koned amongſt the beginning-Principles, and called the Doctrine of Laying on of hands, if it was not to be practiſed by all? for <hi>none</hi> doubts but laying on of <hi>hands</hi> was a <hi>Practice,</hi> and this <hi>Practice</hi> was to be <hi>taught</hi> to all <hi>Bapti<g ref="char:EOLhyphen"/>zed</hi> Believers; yea, the <hi>Babes</hi> in Chriſt; and therefore muſt it needs be practiſed by all.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> This, it is true, has gone for the <hi>Inſtitution</hi> and great <hi>Ground</hi> upon which it hath been <hi>ur<g ref="char:EOLhyphen"/>ged</hi> and <hi>impoſed;</hi> but how much of <hi>Fallacy</hi> and <hi>Falſhood</hi> is in this <hi>Argument,</hi> you will ea<g ref="char:EOLhyphen"/>ſily <hi>diſcern,</hi> as though no act done upon, or <hi>Practice</hi> done by others, might be matter of <hi>Doctrine</hi> or teaching to us, without being en<g ref="char:EOLhyphen"/>gaged in our own <hi>perſons</hi> to do the ſame: were not all the Miracles that Chriſt and his Apo<g ref="char:EOLhyphen"/>ſtles did, matter of Doctrine, and much <hi>E<g ref="char:EOLhyphen"/>dification</hi> and Inſtruction from them, and yet not for our imitation and practice?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>3</label> But this in the Text reſpects ſome of Chriſt's <hi>beginning</hi>-teachings; his firſt words, that is, <hi>Milk</hi> for <hi>Babes,</hi> and can you tell us of any but ſuch as is proper for all baptized <hi>Babes,</hi> or new-baptized Believers?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> Yes no doubt; for what ſay you to thoſe words of Chriſt in the <hi>Commiſſion</hi> it ſelf, which you cannot deny to be <hi>beginning-words?</hi> Mar. 16. Where it is expreſly ſaid, <hi>That the <hi>Bap<g ref="char:EOLhyphen"/>tized</hi> ſhall in his Name caſt out Devils, ſpeak with new Tongues, take up Serpents, drink poyſon, and not hurt them;</hi> and alſo <hi>ſhall lay
+<pb n="44" facs="tcp:57155:23"/> hands on the ſick, and they ſhall recover.</hi> And ſo did the baptized Believers accordingly in thoſe days, <hi>going out and preaching, the Lord working with them, and confirming the Word with Signs following:</hi> But is this the ſtanding <hi>Ordinance</hi> to all baptized Believers to the world's end? This was indeed that <hi>laying on of hands</hi> properly called <hi>Confirmation;</hi> whereas afterwards a laying on of hands of another nature, was ſo called, and introduced; ſo that here you have then a laying on of hands amongſt Chriſt's firſt <hi>Teachings</hi> for <hi>Tongues, Healing</hi> and <hi>Miracles neceſſary</hi> and <hi>profitable</hi> to be taught to <hi>all,</hi> even the <hi>meaneſt Babes,</hi> for <hi>Confirmation;</hi> as <hi>Heb.</hi> 2.3, 4. 1 <hi>Cor.</hi> 14.22. <hi>Acts</hi> 8.8. <hi>Mark</hi> 16.20. Which yet I preſume none will ſay that every Believer ought to pra<g ref="char:EOLhyphen"/>ctiſe.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>2</label> 
+                     <hi>Secondly,</hi> If every one of theſe Principles in <hi>Heb</hi> 6. are ſo <hi>abſolutely</hi> to be taken in by <hi>Babes,</hi> and without which, we are not to eſteem <hi>them communicable;</hi> what do you ſay to the Do<g ref="char:EOLhyphen"/>ctrine of <hi>Baptiſms</hi> in the Text, one of the Principles and Foundations of the Goſpel? it is not ſaid the Doctrine of Baptiſm. Muſt all be baptized with the Baptiſm of the Spirit and of Suffering alſo, or not to be received into Communion?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>3</label> And <hi>Thirdly,</hi> As to <hi>Laying on of Hands</hi> mentioned amongſt theſe <hi>Principles</hi> in the <hi>Text,</hi> as it may reſpect the <hi>Laying on of hands</hi> upon the <hi>Miniſtry,</hi> for their ſolemn <hi>Inveſti<g ref="char:EOLhyphen"/>ture</hi> into their <hi>Office,</hi> whether <hi>Deacons,</hi> Acts 6.
+<pb n="45" facs="tcp:57155:23"/> 
+                     <hi>Elders,</hi> 1 Tim. 1.14. or <hi>Meſſengers,</hi> Acts 14. (whereby they are ſet apart to <hi>tranſact</hi> in the whole <hi>Order,</hi> and in all the <hi>Ordinances</hi> of <hi>God's Houſe;</hi> and wherein <hi>every</hi> particular <hi>Member</hi> comes to be concerned, not only re<g ref="char:EOLhyphen"/>ſpecting the <hi>Adminiſtrations</hi> performed by them, but the <hi>reciprocal Duty</hi> incumbent upon each of them towards thoſe their <hi>Overſeers</hi> ſo ſet <hi>over</hi> them.) It becomes neceſſary therefore to be <hi>taught, known,</hi> and <hi>underſtood</hi> by all, and that in the beginning-Teachings, though all and every Member are not <hi>concerned</hi> in the <hi>Perſonal Practice</hi> thereof; for all are not <hi>Prophets, Apoſtles, Teachers.</hi> And it is moſt remarkable, that the <hi>Doctrine</hi> or Teaching of laying on of hands, is all that is mentioned in this Scripture; all <hi>baptized Believers</hi> muſt be taught it, that's plain; but that they are obliged therefore to practiſe it, is not here or elſewhere to be found.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>4</label> But what do you ſay to <hi>Acts</hi> 8.17. &amp; 19.6. Are there not two expreſs <hi>Preſidents</hi> for ſuch a laying on of Hands <hi>immediately</hi> after Bap<g ref="char:EOLhyphen"/>tiſm, as we infer from hence, concluding that theſe two Texts aforeſaid, give ſufficient warranty ſo to determine?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> It is true, this hath been ſo <hi>received</hi> and <hi>urged</hi> by thoſe that ſo practiſe; but how <hi>war<g ref="char:EOLhyphen"/>rantably,</hi> we ſhall farther <hi>examine.</hi> We read indeed of laying on of hands for the <hi>giving of the Spirit</hi> in three places; one whereof, <hi>Acts</hi> 9.17. was before <hi>Baptiſm;</hi> and theſe two men<g ref="char:EOLhyphen"/>tioned, after; ſo that there is no <hi>poſitive</hi> Con<g ref="char:EOLhyphen"/>cluſion
+<pb n="46" facs="tcp:57155:24"/> to be fetcht from the Preſidents, whe<g ref="char:EOLhyphen"/>ther before or after; as it was in the matter of <hi>Healing,</hi> which was given ſometimes by laying on of <hi>hands,</hi> ſometimes by <hi>words</hi> of Faith ſpoken to the Sick, ſometimes by <hi>Pray<g ref="char:EOLhyphen"/>er,</hi> ſometimes by <hi>ſending Handkerchiefs,</hi> ſome<g ref="char:EOLhyphen"/>times by their very <hi>Shadows;</hi> ſo alſo was the Spirit given ſometimes by <hi>laying on of hands,</hi> ſometimes by <hi>Prayer,</hi> ſometimes by <hi>Preaching</hi> or Prophecying, ſometimes before, ſometimes after <hi>Baptiſm.</hi>
+                  </p>
+                  <p>But concerning theſe two Scriptures ſo much inſiſted upon, and <hi>impoſed</hi> to be the <hi>Pre<g ref="char:EOLhyphen"/>ſident</hi> and Pattern for all Churches, and for every <hi>Member</hi> in the Church, let us put them to trial.</p>
+                  <p>As to that of <hi>Samaria,</hi> it is ſaid, that ſe<g ref="char:EOLhyphen"/>veral being <hi>converted</hi> in that City, and bapti<g ref="char:EOLhyphen"/>zed by <hi>Philip,</hi> who wrought many <hi>Miracles,</hi> and continued ſome time with them, as <hi>v.</hi> 13. yet did he not impoſe hands upon any of them that we read of. <hi>The Church of Jeruſalem hearing that Samaria had received the Word of God, and that the Spirit was fallen upon none of them (viz.</hi> in a viſible manner which was the proper phraſe attributed to thoſe extraordi<g ref="char:EOLhyphen"/>nary <hi>meaſures</hi> of the Spirit ſo frequently given to the Saints in <hi>thoſe days;</hi> as, <hi>Act.</hi> 10.44.11.15, 16, 17. Which <hi>ſometimes did fall upon them be<g ref="char:EOLhyphen"/>fore Baptiſm,</hi> as <hi>Acts</hi> 10. and ſometimes after, as <hi>Acts</hi> 2, 1.4.31. without <hi>laying</hi> on of hands) did therefore ſend <hi>Peter and John,</hi> who it ſeems, were <hi>extraordinarily</hi> gifted by God; ſo that
+<pb n="47" facs="tcp:57155:24"/> on whomſoever <hi>they prayed</hi> and <hi>laid hands,</hi> the <hi>Spirit</hi> was <hi>viſibly, extraordinarily</hi> and <hi>immedi<g ref="char:EOLhyphen"/>ately</hi> given; as <hi>ver.</hi> 18. As healing to the <hi>ſick,</hi> by thoſe that had that <hi>Gift alſo given</hi> by God, (from whom every good Gift came) and who <hi>accordingly,</hi> 'tis ſaid, laid their hands upon them,; but how many of <hi>them</hi> 'tis not ſaid; ſurely not upon all; for <hi>Simon</hi> by his pro<g ref="char:EOLhyphen"/>phane <hi>Offer,</hi> diſcovered he had neither <hi>received</hi> the <hi>Wiſdom</hi> nor <hi>Grace</hi> thereof, and had neither <hi>Lot</hi> or <hi>part</hi> therein, though baptized; and ſo 'tis ſaid they <hi>received</hi> the Spirit in ſuch a man<g ref="char:EOLhyphen"/>ner that it was <hi>viſible</hi> to the Spectators.</p>
+                  <p>And as to that of <hi>Epheſus,</hi> Acts 19.6. <hi>Paul</hi> it ſeems, finding ſome of the <hi>Church</hi> there, that had not received the Spirit after they had <hi>believed</hi> and were baptized, <hi>viz.</hi> in that viſible <hi>manner</hi> ſo uſually given in thoſe days, layes his hands upon twelve men of their number; (it is not ſaid all the Church) who thereupon, <hi>did immediately</hi> receive the Spirit, in ſuch a degree, that it was demonſtrated by ſpeak<g ref="char:EOLhyphen"/>ing with Tongues and Prophecying.</p>
+                  <p>So that in neither of theſe two places (ſo much urged for the <hi>Explanation</hi> of <hi>Heb.</hi> 6.2. And to be a <hi>Preſident</hi> and <hi>Rule</hi> for us, to the end of the world) can we find that there was a <hi>laying</hi> on of hands <hi>immediately</hi> after <hi>Bap<g ref="char:EOLhyphen"/>tiſm,</hi> nor with any <hi>certainty</hi> upon all and eve<g ref="char:EOLhyphen"/>ry Member of the Church, nor to ſuch an end as can be attainable in after-times.</p>
+                  <pb n="48" facs="tcp:57155:25"/>
+                  <p>And as to that of 2 <hi>Tim.</hi> 1.6. Wherein <hi>Paul</hi> exhorts <hi>Timothy</hi> to ſtir up the Gift that was in him by putting on of his hands, aſſert<g ref="char:EOLhyphen"/>ed to be a laying on of hands of this kind, as urged, not <hi>Ordination;</hi> is,</p>
+                  <p>
+                     <hi>Firſt,</hi> a begging, not proving the Queſtion.</p>
+                  <p>
+                     <hi>Secondly,</hi> It is manifeſt that <hi>Timothy</hi> had the hands of the Presbytery laid on him, which none doubts to be <hi>Ordination;</hi> and that <hi>Paul</hi> and <hi>Barnabas</hi> were the <hi>Presbyters</hi> that did or<g ref="char:EOLhyphen"/>dain in thoſe Churches of <hi>Aſia,</hi> is very mani<g ref="char:EOLhyphen"/>feſt, <hi>Acts</hi> 14.23. Wherein by God's <hi>Bleſſing</hi> upon his Ordinance, there was a Gift received, and to be ſtirred up; and therefore in ſaying, Stir up the Gift that was in him by putting on of his hands, and neglect not the Gift that was in him, which was given by the laying on of the hands of the <hi>Presbytery,</hi> whereof <hi>Paul</hi> was one, ſeems to mean one and the ſame thing, and not two things, as urged; and to be no other than thoſe ordinary Miniſterial <hi>Attainments,</hi> which by giving attendance to Reading, Meditation, Prayer, <hi>Exhortation</hi> and <hi>Doctrine,</hi> was to be encreaſed and ſtir<g ref="char:EOLhyphen"/>red up.</p>
+                  <p>Therefore ſince not the <hi>leaſt Syllable</hi> of <hi>In<g ref="char:EOLhyphen"/>ſtitution,</hi> neither <hi>Precept</hi> nor <hi>Preſident</hi> can be found out for ſuch a <hi>Practice,</hi> may we not fuily <hi>conclude</hi> in the words of our <hi>Agreement,</hi> that for any to <hi>practiſe any thing in the Word of God without an Inſtitution from the Word of God, is Will-worſhip and Superſtition.</hi>
+                  </p>
+                  <pb n="49" facs="tcp:57155:25"/>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>6</label> But if this be not the laying on of hands intended in the Text, what is it? If we have miſs'd the ſence and ſcope of the Apoſtle, pray you give us a better, or let ours ſtand.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> Suppoſe we are not able to tell you, nor to be poſitive or peremptory in the Caſe, ma<g ref="char:EOLhyphen"/>ny things being hard and difficult to be un<g ref="char:EOLhyphen"/>derſtood, which ſome that are ignorant wreſt, <hi>&amp;c.</hi> would our Ignorance warrant you, to ſet up your Inferences and Concluſions, as <hi>O<g ref="char:EOLhyphen"/>racles</hi> and Ordinances, without any <hi>Evidence</hi> or Authority from the Word, and be thereby confirmed in your confident Aſſertions? It may be enough to have evinced to you, that yours is not, cannot be that <hi>Ordinance</hi> of Chriſt, that Principle and Foundation-<hi>Doctrine,</hi> ſo confidently aſſerted by you. Yet not to leave you in the Dark, take here my apprehenſion of this Text, and wherein I am perſwaded I have the mind of Chriſt, <hi>viz.</hi>
+                  </p>
+                  <p>The Apoſtle,<note place="margin">
+                        <hi>Heb.</hi> 6.12. o<g ref="char:EOLhyphen"/>pened.</note> the better to gain their <hi>Atten<g ref="char:EOLhyphen"/>tion</hi> to the great Doctrine of the <hi>High Prieſt<g ref="char:EOLhyphen"/>hood,</hi> tells them in the foregoing Chapter, by way of reproof, how dull of <hi>hearing</hi> they had been in times paſt, how little they had <hi>im<g ref="char:EOLhyphen"/>proved</hi> Time or Talent, what little progreſs they had made in <hi>Chriſtianity,</hi> and what Babes they yet were therein, and who, <hi>inſtead</hi> of <hi>bearing ſtrong meat</hi> in Doctrine he was deli<g ref="char:EOLhyphen"/>vering to them, they ſtood in more need of <hi>Milk,</hi> and to be taught again thoſe <hi>beginning-words of God,</hi> wherein in their firſt planting they had been <hi>inſtructed;</hi> which notwithſtand<g ref="char:EOLhyphen"/>ing
+<pb n="50" facs="tcp:57155:26"/> for the preſent he would <hi>forbear</hi> to preſs upon them, but go forward in his Deſign.</p>
+                  <p>Not laying again the <hi>Foundation</hi> of <hi>Repen<g ref="char:EOLhyphen"/>tance</hi> and <hi>Faith,</hi> the Doctrine of <hi>Baptiſmes,</hi> Laying on of <hi>Hands, Reſurrection</hi> and <hi>Judg<g ref="char:EOLhyphen"/>ment,</hi> which are all the Principles that are here <hi>enumerated;</hi> which ſome call five, ſome ſix, and ſome ſeven; though as to the num<g ref="char:EOLhyphen"/>ber, if they muſt be taken for all the begin<g ref="char:EOLhyphen"/>ning <hi>Principles,</hi> I conceive we muſt either ſuppoſe them very <hi>comprehenſive,</hi> or elſe many muſt be left out, as the <hi>Ten Commandments,</hi> and <hi>ſeveral</hi> of the Inſtitutions, ſuch as the Lord's Supper, which I preſume will go for a beginning-teaching as well as Baptiſm.</p>
+                  <p>Therefore we muſt ſuppoſe that <hi>Repentance</hi> and <hi>Faith</hi> muſt comprehend all, both the <hi>Ne<g ref="char:EOLhyphen"/>gative</hi> and Poſitive part of Holineſs; thoſe of <hi>Baptiſmes</hi> and Laying on of <hi>Hands,</hi> the <hi>Inſti<g ref="char:EOLhyphen"/>tutions,</hi> Priviledges and Order in the Church of God; <hi>Reſurrection</hi> and <hi>Judgment,</hi> the whole of our Hope and Happineſs for the time to come; and particularly that <hi>Doctrine</hi> of lay<g ref="char:EOLhyphen"/>ing on of hands, to contain not only thoſe laying on of hands by which the miraculous Healings and ſpiritual Gifts were attained for confirmation of the Goſpel, but thoſe laying on of hands for the inveſtiture of the Church-<hi>Officers,</hi> who were to tranſact the whole order of God's Houſe, for the <hi>edification</hi> of each Member, and therefore neceſſary to be taught to every one. And this is that, which amongſt the <hi>reſt</hi> they had need to be taught, and might
+<pb n="51" facs="tcp:57155:26"/> have been teachers of themſelves; <hi>viz.</hi> what was the end, uſe, bleſſing and benefit of ſuch a Rite in the ſeveral <hi>Miniſtrations</hi> thereof; but no ground in the leaſt to confirm it to one particular, much leſs to ſuch an one of which no <hi>Syllable</hi> either here, or in the whole Book of God.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>6</label> But why would you infer, that we by the Doctrine of Laying on of hands, may take in all the Laying on of hands ſpoken of? when<g ref="char:EOLhyphen"/>as it is ſaid laying on of hands in the Singu<g ref="char:EOLhyphen"/>lar, and not layings on of hands in the Plu<g ref="char:EOLhyphen"/>ral Number; therefore muſt reſpect only one ſort of laying on of hands.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> Which is a meer Criticiſm, and has nothing of <hi>Truth</hi> in it; the Doctrine of laying on of hands is as much <hi>Plural,</hi> and may reſpect the teaching of all ſorts, of laying on of hands, as the Doctrine of <hi>Baptiſmes</hi> reſpects all ſorts of <hi>Baptiſmes.</hi>
+                  </p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>7</label> But why ſhould any be <hi>offended</hi> that we pray for a Bleſſing upon our <hi>Brethren</hi> or <hi>Si<g ref="char:EOLhyphen"/>ſters</hi> after their Baptiſm, or upon their admiſ<g ref="char:EOLhyphen"/>ſion into the Church, whereby the whole may alſo take the better notice for whom we pray?</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Anſw. </seg>
+                     </label> To which I anſwer, that we are not <hi>of<g ref="char:EOLhyphen"/>fended</hi> at a practice of that kind, be it <hi>lifting up</hi> or <hi>laying on of hands,</hi> provided it be not urged as a thing of <hi>abſolute neceſſity;</hi> while the <hi>Biſhops of old</hi> uſed many <hi>Ceremonies,</hi> peo<g ref="char:EOLhyphen"/>ple were not ſo much <hi>concerned;</hi> but when they would <hi>impoſe</hi> them as neceſſary, and <hi>Inſti<g ref="char:EOLhyphen"/>tutions
+<pb n="52" facs="tcp:57155:27"/> of Chriſt,</hi> that broke the <hi>Peace,</hi> and <hi>occaſioned</hi> much miſchief; ſo to all ſuch lay<g ref="char:EOLhyphen"/>ing on of hands, a beginning-<hi>Doctrine,</hi> or Oracle of <hi>God,</hi> a Foundation of <hi>Chriſtian Re<g ref="char:EOLhyphen"/>ligion,</hi> to which every Member and Diſciple of Chriſt ought to ſubmit, upon penalty of Non-Communion for the neglecting or re<g ref="char:EOLhyphen"/>jecting a <hi>Foundation-Principle,</hi> though no one word of <hi>Inſtitution, Command, Precept,</hi> or <hi>Example</hi> for the ſame; and that under pre<g ref="char:EOLhyphen"/>tence of receiving more of that Spirit of Chriſt thereby, which is a Spirit of <hi>Love, Meekneſs, Humility, Tenderneſs, Peace, Edification,</hi> there appears to be more of that other Spirit of <hi>uncharitable judging, rending, tearing,</hi> and <hi>dividing</hi> the Body of Chriſt; and for aſ<g ref="char:EOLhyphen"/>ſerting for <hi>Doctrine</hi> and <hi>Practice</hi> the <hi>Cuſtoms, Commandments</hi> and <hi>Traditions</hi> of men; it is for theſe things our <hi>Offence</hi> lies, as ſo well founded upon <hi>Deut.</hi> 4.2. &amp; 12.32. <hi>Rev.</hi> 22.18. Prov. 30.6.</p>
+                  <p>There are two Objections more that I have lately met with, that I think very neceſſary to give ſome Anſwer to; the one is this, <hi>viz.</hi>
+                  </p>
+                  <p>
+                     <hi>Obj.</hi> 8. That as to the Point of <hi>Antiquity,</hi> though ('tis granted) the <hi>Ancients</hi> and their <hi>Followers</hi> ever ſince, have ſo much erred, not only in the <hi>Subject,</hi> but divers <hi>Circumſtances</hi> about this <hi>Rite</hi> of Impoſition of hands; yet inaſmuch as there hath been <hi>all along</hi> ſuch a <hi>Witneſs</hi> born to the <hi>thing it ſelf,</hi> it makes much for its <hi>Apoſtolicalneſs,</hi> and confirms our <hi>Pra<g ref="char:EOLhyphen"/>ctice</hi> therein.</p>
+                  <pb n="53" facs="tcp:57155:27"/>
+                  <p>
+                     <hi>Anſw.</hi> 1. To which, I ſay, That it doth not ap<g ref="char:EOLhyphen"/>pear that ſuch a <hi>Witneſs</hi> hath been born <hi>all a<g ref="char:EOLhyphen"/>long</hi> thereto; for as Mr. <hi>Baxter</hi> ſo ingenuouſly acknowledgeth, that <hi>Juſtin Martyr, Irenaeus,</hi> and <hi>others</hi> in <hi>thoſe times</hi> are as <hi>ſilent</hi> about it, as the Scripture is that any of the <hi>Apoſtles</hi> did ever ſo <hi>practiſe</hi> it in the firſt times; thoſe <hi>Authori<g ref="char:EOLhyphen"/>ties</hi> that are pretended to aſſert the ſame in the firſt <hi>Centuries,</hi> having been proved to be ſo <hi>ſpurious</hi> and <hi>ſuppoſititious.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> 2. But <hi>Secondly,</hi> If the Practice of it ſhould be <hi>granted</hi> to be as <hi>ancient</hi> as the keep<g ref="char:EOLhyphen"/>ing of <hi>Eaſter</hi> and <hi>Lent, Dioceſan Biſhops,</hi> and <hi>Patriarchs,</hi> and many other things that have been ſo generally <hi>received</hi> and <hi>practiſed,</hi> it no more proves it therefore to be <hi>Apoſtolical</hi> than each of them; For a pretence to <hi>Ancient Pre<g ref="char:EOLhyphen"/>ſcription,</hi> without a Word of God to war<g ref="char:EOLhyphen"/>rant it, can never <hi>juſtifie</hi> the <hi>Divine Authority</hi> of any Practice.</p>
+                  <p>
+                     <hi>Obj.</hi> 9. The other is this, <hi>viz.</hi> That as to poſitive Scripture-<hi>Inſtitution,</hi> ſo much called <hi>for</hi> to juſtifie our practice of laying on <hi>of hands</hi> upon all the Baptized, from <hi>Precept</hi> or <hi>Exam<g ref="char:EOLhyphen"/>ple,</hi> it is not only <hi>unreaſonable,</hi> but dangerous, as to many Truths, to be demanded (as hath in expreſs words been lately told me) for where is the plain word either for <hi>Women</hi>'s receiving the <hi>Lord's Supper,</hi> or to lay on <hi>hands</hi> upon <hi>Officers?</hi>
+                  </p>
+                  <p>In anſwer whereto, I muſt needs ſay I am much grieved and aſtoniſhed at ſuch prevari<g ref="char:EOLhyphen"/>cation;
+<pb n="54" facs="tcp:57155:28"/> and than which, what can more be<g ref="char:EOLhyphen"/>tray the Truth and Juſtice of your Cauſe? for do not your own <hi>Anſwers</hi> to ſuch like <hi>In<g ref="char:EOLhyphen"/>ſtances,</hi> ſo uſually brought by the <hi>Paedobaptiſts,</hi> ſufficiently <hi>confute</hi> you? And do you not <hi>know</hi> that if we had not <hi>plain and poſitive Scripture</hi> for both, that we would not <hi>practiſe either?</hi> For is not 1 <hi>Cor.</hi> 11.28. compared with 1 <hi>Tim.</hi> 2.4, 5. &amp; <hi>Gal.</hi> 3.28. a ſufficient <hi>Precept</hi> for Womens <hi>Receiving?</hi> And <hi>Acts</hi> 1.14. with <hi>Chap.</hi> 2.42, 44. ſubſtantial <hi>evidence</hi> for the <hi>Practice</hi> thereof? And as for laying on of hands upon Officers; is not 1 <hi>Tim.</hi> 5.22. a <hi>full Precept?</hi> And <hi>Acts</hi> 6.6. &amp; 13.3. &amp; 14.23. 1 <hi>Tim.</hi> 4.14. as clear <hi>Preſidents</hi> for the ſame? And may we not warrantably ſay, Let there be but as good Scripture-Authority <hi>produced</hi> for laying on of <hi>Hands</hi> upon all <hi>Bap<g ref="char:EOLhyphen"/>tized Believers</hi> before they are permitted to partake of the <hi>Lords Supper,</hi> and it ſhall ſuf<g ref="char:EOLhyphen"/>fice? But to ſet up a Practice in God's Wor<g ref="char:EOLhyphen"/>ſhip, without a warranty from his <hi>Word</hi> by ſome plain <hi>poſitive Rule and Direction</hi> (the thing pleaded for by you) is no leſs (in my Judg<g ref="char:EOLhyphen"/>ment) than to give <hi>countenance</hi> to all the An<g ref="char:EOLhyphen"/>tichriſtian <hi>Innovations,</hi> to let go at once the ſtrongeſt Hold of <hi>Proteſtantiſm,</hi> reproach the <hi>Wiſdom</hi> of Chriſt, and ſlight the <hi>Authority</hi> of the Holy Scriptures, as though we had not a ſufficient <hi>direction</hi> therein in all parts of God's Worſhip.</p>
+                  <p>And therefore to all thoſe worthy <hi>Sayings</hi> to this purpoſe, of thoſe <hi>Eminent men</hi> menti<g ref="char:EOLhyphen"/>oned in the <hi>Treatiſe of Bapt.</hi> p. 93. I ſhall add that moſt remarkable <hi>Expreſſion</hi> of Dr. <hi>Owen;</hi>
+                     <pb n="55" facs="tcp:57155:28"/> which you'l find in his <hi>Communion with God,</hi>
+                     <note place="margin">D. <hi>Owen.</hi>
+                     </note> p. 171. <hi>viz. This then they who hold Communion with Chriſt, are careful of, they will admit of nothing, practiſe nothing in the Worſhip of God, private or publick, but what they have his war<g ref="char:EOLhyphen"/>rant for; for unleſs it comes in his Name, with</hi> Thus ſaith the Lord Jeſus, <hi>they will not hear an Angel from Heaven; they know the Apoſtles themſelves were to teach the Saints only what Chriſt commanded them,</hi> Mat. 28.20.</p>
+                  <p>By which ſound and wholeſom Rule well obſerved, we are delivered from all Humane Inventions and Traditions; and by which <hi>Confirmation, Infants-Baptiſm, Lent, Eaſter,</hi> &amp;c. and a hundred more of like import, are turned out of doors, as accuſing Chriſt of un<g ref="char:EOLhyphen"/>faithfulneſs, and the Scripture of inſufficien<g ref="char:EOLhyphen"/>cy.</p>
+                  <p>And to which purpoſe, <hi>T. G.</hi> himſelf hath ſo very well urged lately to Dr. <hi>Stillingfleet,</hi> about <hi>Infant-Baptiſm,</hi> from Dr. <hi>Fulk</hi> out of <hi>Irenaeus;</hi>
+                     <note place="margin">Irenaeus.</note> viz. <hi>When the Hereticks are reproved out of Scripture, they fall to accuſing the Scrip<g ref="char:EOLhyphen"/>tures, as if all is not well in them, and that the Truth cannot be found out of them that know not Tradition: And therefore that</hi> Tertullian <hi>ſaith, Take away theſe things from the Hereticks, (which they hold with the Ethnicks) that they may ſtay their Queſtions upon the Scripture only.</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="conclusion">
+               <pb n="56" facs="tcp:57155:29"/>
+               <head>The Concluſion.</head>
+               <p>THus you have had a <hi>candid Account</hi> of the <hi>Riſe, Growth</hi> and <hi>Progreſs</hi> of this Rite of <hi>Confirmation</hi> or Laying on of <hi>Hands,</hi> from the beginning to this day (amongſt all Perſwaſions that have owned it) with the <hi>Au<g ref="char:EOLhyphen"/>thorities</hi> upon which it hath been <hi>founded</hi> and <hi>impoſed;</hi> together with a genuine <hi>Examinati<g ref="char:EOLhyphen"/>on</hi> of the <hi>Grounds</hi> and <hi>Reaſons</hi> each Party have given to juſtifie the ſame. And may we not upon the whole, fairly come to the following Concluſions? <hi>viz.</hi>
+               </p>
+               <p n="1">1. That there doth not appear to be the leaſt <hi>Scripture-Precept</hi> or <hi>Practice</hi> for any ſuch <hi>Ordinance</hi> of <hi>Confirmation,</hi> or an Impoſing of <hi>Hands</hi> upon all the Baptized before they <hi>break Bread,</hi> or are admitted into <hi>Church-Commu<g ref="char:EOLhyphen"/>nion.</hi>
+               </p>
+               <p n="2">2. That the <hi>Inſtances</hi> produced to prove it an <hi>Apoſtolical Tradition,</hi> are <hi>impious Lies</hi> and <hi>Forgeries.</hi>
+               </p>
+               <p n="3">3. That the <hi>Authorities</hi> by which it hath been heretofore <hi>enjoyned,</hi> were nothing but <hi>Antichriſtian Canons</hi> and <hi>Decrees.</hi>
+               </p>
+               <p n="4">4. That the moſt <hi>eminent Witneſſes</hi> and <hi>Con<g ref="char:EOLhyphen"/>feſſors</hi> that oppoſed the Antichriſtian <hi>
+                     <g ref="char:V">Ʋ</g>ſurpa<g ref="char:EOLhyphen"/>tions</hi> and <hi>Innovations,</hi> have all along witneſ<g ref="char:EOLhyphen"/>ſed againſt and <hi>impugned this</hi> of Confirmation, <hi>viz.</hi> The <hi>Novatians, Donatiſts, Waldenſes, Greek Churches, Wickliffians,</hi> &amp;c.</p>
+               <pb n="57" facs="tcp:57155:29"/>
+               <p>All which are worthy the ſerious <hi>Conſide<g ref="char:EOLhyphen"/>ration</hi> of all <hi>Sober</hi> and <hi>Judicious Chriſtians,</hi> and are eſpecially <hi>recommended</hi> to them, who ha<g ref="char:EOLhyphen"/>ving <hi>rejected Infants,</hi> and <hi>embraced Believers-Baptiſm,</hi> do yet cleave to this <hi>Practice,</hi> with theſe following <hi>Obſervations,</hi> viz.</p>
+               <p n="1">1. That it is moſt manifeſt that thoſe <hi>Popes, Councils</hi> and <hi>Fathers,</hi> that have enjoyned and impoſed <hi>Infants ſprinkling</hi> for a <hi>Sacrament,</hi> or an <hi>Ordinance</hi> of <hi>Chriſt,</hi> have enjoyned this alſo as <hi>ſuch.</hi>
+               </p>
+               <p n="2">2. That the <hi>Principal Arguments</hi> that have been <hi>pretended</hi> for the one, have been <hi>urged</hi> and <hi>pleaded</hi> for the other <hi>alſo;</hi> viz. <hi>Apoſtolical Tradition,</hi> and pretended <hi>Inferences</hi> and <hi>Con<g ref="char:EOLhyphen"/>ſequences</hi> from Scripture.</p>
+               <p n="3">3. That the Famous <hi>Churches</hi> and <hi>Confeſ<g ref="char:EOLhyphen"/>ſors</hi> that have oppoſed <hi>Infants-ſprinkling,</hi> as <hi>Superſtitious, Popiſh</hi> and <hi>Antichriſtian,</hi> have upon the ſame account, oppoſed <hi>this alſo.</hi>
+               </p>
+               <p n="4">4. That it doth not appear that any <hi>Bapti<g ref="char:EOLhyphen"/>zed Church</hi> or People did ever, in any <hi>Age</hi> or <hi>Countrey,</hi> own ſuch a <hi>Principle</hi> or <hi>Practice</hi> to this day, except ſome in <hi>this Nation</hi> in theſe <hi>late Times.</hi>
+               </p>
+               <p>But then it may well be enquired, if this be ſo <hi>Novel</hi> a thing amongſt the <hi>Baptiſts,</hi> how came thoſe in this <hi>Countrey</hi> ſo to receive and practiſe it, as before aſſerted?</p>
+               <p>To which I give the following Account, as I have received it under the <hi>Hand</hi> of one that affirms to have had the perfect <hi>knowledge</hi> thereof, as being an eye and ear-witneſs of the ſame, and who certifies to this purpoſe, <hi>viz.</hi>
+               </p>
+               <pb n="58" facs="tcp:57155:30"/>
+               <p>
+                  <note place="margin">How, when and why, laying on of hands was pra<g ref="char:EOLhyphen"/>ctiſed by the <hi>Bapt.</hi> in this <hi>Nation.</hi>
+                  </note>
+                  <q>That about the year <hi>1646,</hi> ſome <hi>27</hi> years ſince, one Mr. <hi>Cornwell,</hi> heretofore a pub<g ref="char:EOLhyphen"/>lick Preacher, then a Member and Mi<g ref="char:EOLhyphen"/>niſter of a Baptized Congregation in <hi>Kent,</hi> was a great Aſſerter of this Principle and Practice; who coming about that time in<g ref="char:EOLhyphen"/>to that Baptized Congregation, then meeting in the <hi>Spittle</hi> Biſhopſgate-<hi>Street,</hi> Lond. did from <hi>Heb. 5.12, 13. &amp; 6.1, 2.</hi> preach the neceſſity of Laying on of Hands; inferring from thence, thoſe that were not under laying on of hands, were not Babes in Chriſt, had not God, nor Com<g ref="char:EOLhyphen"/>munion with God. Whereupon, ſeveral of the ſaid Congregation were perſwaded to come under that Practice; and which notwithſtand<g ref="char:EOLhyphen"/>ing, the Church in Tenderneſs indulged to them, upon their promiſe of a peaceable demeanour in the Church. Notwithſtanding which their ſaid Promiſe, they did afterwards not only preſs their ſaid Perſwaſion uncharitably, as they had been taught by their aforeſaid Teach<g ref="char:EOLhyphen"/>er; <hi>viz.</hi> That none were Babes in Chriſt, nor had Communion with God without it; there<g ref="char:EOLhyphen"/>fore not to be communicated with in Church-Ordinances (and as after was publiſhed in Print, by a Leading Brother amongſt them, in a Book called <hi>God's Oracles, and Chriſt's Doctrine</hi>) but made a Rent and a Separation for the ſame; and from that very Schiſm propa<g ref="char:EOLhyphen"/>gated the ſame Principle and Practice amongſt many others in the Nation ever ſince, who have kept that diſtance from their Brethren (not owning the ſame) as not eſteeming or commu<g ref="char:EOLhyphen"/>nicating with them as the true Church of God, becauſe defective in one of the beginning Prin<g ref="char:EOLhyphen"/>ciples
+<pb n="59" facs="tcp:57155:30"/> or Foundations of the Christian Reli<g ref="char:EOLhyphen"/>gion.</q>
+               </p>
+               <p>Now this being a true Narrative as to mat<g ref="char:EOLhyphen"/>ter of Fact; doth it not naturally follow?</p>
+               <p>
+                  <hi>Firſt,</hi> That ſuch a Principle ſo ſuck'd in, and received, is <hi>founded</hi> in groſs <hi>Ignorance</hi> and <hi>Error?</hi> For what can more ſavour of <hi>Darkneſs</hi> and <hi>Error,</hi> than to make our <hi>Adoption</hi> and <hi>Com<g ref="char:EOLhyphen"/>munion with God</hi> to depend upon ſome Exter<g ref="char:EOLhyphen"/>nal Act <hi>done?</hi> As though Chriſt himſelf was utterly miſtaken, when he tells us, <hi>That as many as receive him, have the priviledge to be<g ref="char:EOLhyphen"/>come the Children of God, even as many as do believe in his Name,</hi> John 1.12, 13. And the Apoſtle alſo in confirmation thereof, <hi>That we are all the Children of God by Faith in Chriſt Jeſus,</hi> Gal. 3.26. And, <hi>that of his own Will we are begotten by the word of Truth,</hi> Jam. 1.16. But this Doctrine aſſerts our <hi>New-Birth</hi> in another way, by the Laying on of <hi>Hands</hi> af<g ref="char:EOLhyphen"/>ter <hi>Baptiſm</hi> (and as though perſons might be <hi>baptized</hi> that were not <hi>Children of God;</hi> but afterwards to be made ſo by this <hi>new way;</hi>) thereby confirming the <hi>Superſtition</hi> of the <hi>Pa<g ref="char:EOLhyphen"/>piſts,</hi> in their Idolizing this Rite above all other <hi>Ordinances,</hi> as before.</p>
+               <p>And <hi>Secondly,</hi> The <hi>Principle</hi> (upon this account) <hi>appears</hi> not more erroneous, than the Practice upon it, <hi>corrupt</hi> and <hi>vicious; viz.</hi> to make a Separation from the <hi>Church</hi> upon it, ſo contrary not only to known Order, Diſ<g ref="char:EOLhyphen"/>cipline and Duty, but their declared Promiſe; and therefore muſt not all thoſe Churches of that Conſtitution, neceſſarily be ſuppoſed to be founded in <hi>Sin</hi> and <hi>Schiſm,</hi> as well as in
+<pb n="60" facs="tcp:57155:31"/> great <hi>Error</hi> and <hi>Ignorance?</hi> and concerning which <hi>unnatural</hi> and <hi>undue Separation,</hi> I hear ſome of <hi>Eminency</hi> amongſt them, have lately ſo had their <hi>Conviction,</hi> as to plead <hi>Reformation</hi> therein with their <hi>Brethren,</hi> and who I doubt not, from the true ſenſe of the <hi>bitter fruit</hi> (e<g ref="char:EOLhyphen"/>ven the <hi>Gall</hi> and <hi>Wormwood</hi> that hath been brought forth thereupon) will naturally be led to conſider the <hi>Root</hi> from whence it hath ſprung, <hi>viz.</hi> the miſtaken Principle, as here <hi>diſcovered;</hi> for as our Saviour tells us, <hi>Mat.</hi> 7.17, 18. That <hi>it is the corrupt Tree that brings forth the evil fruit; and that as the good Tree cannot bear evil fruit, ſo the corrupt Tree cannot bear good fruit.</hi> All which is recommended to the ſerious <hi>Conſideration</hi> of the <hi>Impartial</hi> and <hi>Judicious;</hi> not doubting but the day is haſtning, when not only all <hi>Antichriſtian Fogs</hi> and <hi>Darkneſs,</hi> but all <hi>Mists</hi> of <hi>Error</hi> and <hi>Ig<g ref="char:EOLhyphen"/>norance,</hi> ſhall be <hi>diſpelled;</hi> and that the <hi>God</hi> of <hi>Truth</hi> will ſo ſend out his <hi>Light</hi> and <hi>Truth,</hi> and cauſe it ſo to ſpring up out of the <hi>Earth,</hi> that <hi>Knowledge</hi> ſhall fill the <hi>Earth</hi> as the <hi>waters</hi> cover the <hi>Sea;</hi> when <hi>Diſcord</hi> and <hi>Diviſion</hi> ſhall ſo <hi>ceaſe</hi> amongſt his <hi>People,</hi> that they ſhall not with their <hi>Babyloniſh Language</hi> vex one another any more, but with one <hi>Lip</hi> and <hi>Shoul<g ref="char:EOLhyphen"/>der</hi> ſhall ſerve the Lord with <hi>one conſent.</hi> And for the ſpeedy <hi>accompliſhing</hi> and <hi>fulfilling</hi> ſuch <hi>amiable</hi> and <hi>acceptable</hi> Promiſes, let all the Up<g ref="char:EOLhyphen"/>right ſay <hi>Amen, Amen.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
